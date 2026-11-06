@@ -1,7 +1,9 @@
+import { Suspense } from "react";
 import Link from "@/components/PrefetchLink";
 import { getGenres, getStories, type ListParams } from "@/lib/api";
 import { StoryGrid } from "./StoryCard";
 import Pagination from "./Pagination";
+import { GridSkeleton } from "./Skeletons";
 
 export const LISTS: Record<string, { title: string; params: ListParams }> = {
   "truyen-chu": { title: "Truyện chữ", params: { type: "novel", sort: "updated_desc" } },
@@ -24,6 +26,24 @@ const SORTS: [string, string][] = [
   ["chapter_desc", "Nhiều chương"],
 ];
 
+type View = { base: string; params: ListParams; page: number; sort?: string; genre?: string; showGenres: boolean };
+
+// getStories dùng fetch có cache nên gọi 2 lần (số lượng + lưới) chỉ tốn 1 request
+async function Count({ params, page, sort, genre }: View) {
+  const { meta } = await getStories({ ...params, sort, genres: genre, page });
+  return <p className="mb-4 text-sm text-muted">{meta.total.toLocaleString("vi-VN")} truyện</p>;
+}
+
+async function Body({ base, params, page, sort, genre, showGenres }: View) {
+  const { data, meta } = await getStories({ ...params, sort, genres: genre, page });
+  return (
+    <>
+      <StoryGrid stories={data} />
+      <Pagination page={meta.page} totalPages={meta.totalPages} base={base} params={{ sort, genre: showGenres ? genre : undefined }} />
+    </>
+  );
+}
+
 export default async function ListView({ title, base, params, searchParams, showGenres = true }: {
   title: string; base: string; params: ListParams;
   searchParams: { page?: string; sort?: string; genre?: string };
@@ -32,10 +52,10 @@ export default async function ListView({ title, base, params, searchParams, show
   const page = Math.max(1, Number(searchParams.page) || 1);
   const sort = searchParams.sort || params.sort;
   const genre = searchParams.genre || params.genres;
-  const [{ data, meta }, genres] = await Promise.all([
-    getStories({ ...params, sort, genres: genre, page }),
-    showGenres ? getGenres() : Promise.resolve([]),
-  ]);
+  const genres = showGenres ? await getGenres() : [];
+  const view: View = { base, params, page, sort, genre, showGenres };
+  // key đổi theo trang/bộ lọc -> mỗi lần chuyển trang hiện khung xám thay vì đứng yên chờ
+  const key = `${page}|${sort}|${genre}`;
   const link = (o: { sort?: string; genre?: string }) => {
     const u = new URLSearchParams();
     const s = o.sort ?? sort;
@@ -47,7 +67,9 @@ export default async function ListView({ title, base, params, searchParams, show
   return (
     <div>
       <h1 className="mb-1 text-xl font-bold sm:text-2xl">{title}</h1>
-      <p className="mb-4 text-sm text-muted">{meta.total.toLocaleString("vi-VN")} truyện</p>
+      <Suspense key={`c${key}`} fallback={<div className="mb-4 h-5 w-24 animate-pulse rounded bg-border" />}>
+        <Count {...view} />
+      </Suspense>
       <div className="no-scrollbar -mx-3 mb-3 flex gap-2 overflow-x-auto px-3 sm:mx-0 sm:flex-wrap sm:px-0">
         {SORTS.map(([v, l]) => (
           <Link key={v} href={link({ sort: v })} className={`whitespace-nowrap rounded-full border px-3 py-1 text-sm ${sort === v ? "border-accent bg-accent text-white" : "border-border hover:border-accent"}`}>{l}</Link>
@@ -64,8 +86,9 @@ export default async function ListView({ title, base, params, searchParams, show
           </div>
         </details>
       )}
-      <StoryGrid stories={data} />
-      <Pagination page={meta.page} totalPages={meta.totalPages} base={base} params={{ sort, genre: showGenres ? genre : undefined }} />
+      <Suspense key={`b${key}`} fallback={<GridSkeleton count={24} />}>
+        <Body {...view} />
+      </Suspense>
     </div>
   );
 }
