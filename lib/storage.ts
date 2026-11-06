@@ -7,6 +7,8 @@ export type HistoryItem = {
   cover: string;
   chapterSlug: string;
   chapterTitle: string;
+  /** "/truyen" (mặc định) hoặc "/thu-vien" */
+  base?: string;
   at: number;
 };
 export type BookmarkItem = { slug: string; title: string; cover: string; at: number };

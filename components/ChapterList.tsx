@@ -5,7 +5,7 @@ import { useHistory } from "@/lib/storage";
 
 type Ch = { slug: string; title: string; numberText?: string; date?: string; isNew?: boolean };
 
-export default function ChapterList({ slug, chapters }: { slug: string; chapters: Ch[] }) {
+export default function ChapterList({ slug, chapters, base = "/truyen" }: { slug: string; chapters: Ch[]; base?: string }) {
   const [q, setQ] = useState("");
   const [asc, setAsc] = useState(false);
   const [limit, setLimit] = useState(100);
@@ -30,7 +30,7 @@ export default function ChapterList({ slug, chapters }: { slug: string; chapters
       <ul className="grid gap-x-4 sm:grid-cols-2">
         {list.slice(0, limit).map((c) => (
           <li key={c.slug} className="border-b border-border">
-            <Link href={`/truyen/${slug}/${c.slug}`} className={`flex items-center justify-between gap-2 py-2 text-sm hover:text-accent ${readSlug === c.slug ? "font-semibold text-accent" : ""}`}>
+            <Link href={`${base}/${slug}/${c.slug}`} className={`flex items-center justify-between gap-2 py-2 text-sm hover:text-accent ${readSlug === c.slug ? "font-semibold text-accent" : ""}`}>
               <span className="truncate">{c.title}{c.isNew && <span className="ml-2 rounded bg-accent px-1 text-[10px] text-white">NEW</span>}</span>
               <span className="shrink-0 text-xs text-muted">{c.date}</span>
             </Link>

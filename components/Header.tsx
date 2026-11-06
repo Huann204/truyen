@@ -25,7 +25,7 @@ export default function Header() {
         <SearchBox />
         <ThemeToggle />
       </div>
-      <nav className="mx-auto hidden max-w-6xl gap-1 px-4 pb-2 text-sm sm:flex">
+      <nav className="no-scrollbar mx-auto hidden max-w-6xl gap-1 overflow-x-auto px-4 pb-2 text-sm sm:flex">
         {nav.map((n) => (
           <Link
             key={n.href}

@@ -24,8 +24,8 @@ export default function HistoryPage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={assetUrl(h.cover)} alt="" className="h-20 w-14 rounded object-cover" />
             <div className="min-w-0 flex-1">
-              <Link href={`/truyen/${h.slug}`} className="line-clamp-1 font-medium hover:text-accent">{h.title}</Link>
-              <Link href={`/truyen/${h.slug}/${h.chapterSlug}`} className="text-sm text-accent hover:underline">Đọc tiếp: {h.chapterTitle}</Link>
+              <Link href={`${h.base ?? "/truyen"}/${h.slug}`} className="line-clamp-1 font-medium hover:text-accent">{h.title}</Link>
+              <Link href={`${h.base ?? "/truyen"}/${h.slug}/${h.chapterSlug}`} className="text-sm text-accent hover:underline">Đọc tiếp: {h.chapterTitle}</Link>
               <p className="text-xs text-muted">{new Date(h.at).toLocaleString("vi-VN")}</p>
             </div>
             <button onClick={() => removeHistory(h.slug)} aria-label="Xóa" className="px-2 text-muted hover:text-accent">✕</button>

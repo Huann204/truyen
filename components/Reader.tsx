@@ -15,6 +15,8 @@ type Props = {
   prev?: string;
   next?: string;
   chapters: { slug: string; title: string }[];
+  /** Tiền tố đường dẫn: "/truyen" (API) hoặc "/thu-vien" (truyện tải về máy) */
+  base?: string;
 };
 
 type Settings = { size: number; line: number; font: "sans" | "serif"; bg: "light" | "sepia" | "dark" };
@@ -28,7 +30,7 @@ const BGS = {
 // Lưu ở mức module: khi chuyển chương Reader bị mount lại nhưng không phải đọc/ẩn-hiện lại cài đặt -> không chớp lần 2
 let cachedSettings: Settings | null = null;
 
-export default function Reader({ slug, title, cover, chapter, paragraphs, pages, prev, next, chapters }: Props) {
+export default function Reader({ slug, title, cover, chapter, paragraphs, pages, prev, next, chapters, base = "/truyen" }: Props) {
   const router = useRouter();
   const [s, setS] = useState<Settings>(cachedSettings ?? DEFAULTS);
   const [panel, setPanel] = useState(false);
@@ -56,40 +58,40 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
   }
 
   useEffect(() => {
-    saveHistory({ slug, title, cover, chapterSlug: chapter.slug, chapterTitle: chapter.title });
-  }, [slug, title, cover, chapter.slug, chapter.title]);
+    saveHistory({ slug, title, cover, chapterSlug: chapter.slug, chapterTitle: chapter.title, base });
+  }, [slug, title, cover, chapter.slug, chapter.title, base]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement;
       if (["INPUT", "SELECT", "TEXTAREA"].includes(t.tagName)) return;
-      if (e.key === "ArrowLeft" && prev) router.push(`/truyen/${slug}/${prev}`);
-      if (e.key === "ArrowRight" && next) router.push(`/truyen/${slug}/${next}`);
+      if (e.key === "ArrowLeft" && prev) router.push(`${base}/${slug}/${prev}`);
+      if (e.key === "ArrowRight" && next) router.push(`${base}/${slug}/${next}`);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [prev, next, slug, router]);
+  }, [prev, next, slug, router, base]);
 
   const nav = (
     <div className="hidden items-center justify-center gap-2 py-3 text-sm sm:flex">
-      {prev ? <Link href={`/truyen/${slug}/${prev}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">‹ Chương trước</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">‹ Chương trước</span>}
+      {prev ? <Link href={`${base}/${slug}/${prev}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">‹ Chương trước</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">‹ Chương trước</span>}
       <select
         value={chapter.slug}
-        onChange={(e) => router.push(`/truyen/${slug}/${e.target.value}`)}
+        onChange={(e) => router.push(`${base}/${slug}/${e.target.value}`)}
         className="max-w-[40%] rounded-lg border border-border bg-card px-2 py-2 text-foreground"
       >
         {chapters.map((c) => <option key={c.slug} value={c.slug}>{c.title}</option>)}
       </select>
-      {next ? <Link href={`/truyen/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">Chương sau ›</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">Chương sau ›</span>}
+      {next ? <Link href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">Chương sau ›</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">Chương sau ›</span>}
     </div>
   );
 
   const bar = (
     <div className="fixed inset-x-0 bottom-0 z-30 flex items-center gap-2 border-t border-border bg-card/95 px-3 py-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] backdrop-blur-md sm:hidden">
-      {prev ? <Link href={`/truyen/${slug}/${prev}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">‹</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">‹</span>}
-      <Link href={`/truyen/${slug}`} className="min-w-0 flex-1 truncate rounded-lg border border-border px-3 py-2 text-center text-sm">{chapter.title}</Link>
+      {prev ? <Link href={`${base}/${slug}/${prev}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">‹</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">‹</span>}
+      <Link href={`${base}/${slug}`} className="min-w-0 flex-1 truncate rounded-lg border border-border px-3 py-2 text-center text-sm">{chapter.title}</Link>
       {isText && <button onClick={() => setPanel((v) => !v)} aria-label="Tùy chỉnh" className="rounded-lg border border-border px-3 py-2 text-sm">Aa</button>}
-      {next ? <Link href={`/truyen/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">›</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">›</span>}
+      {next ? <Link href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">›</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">›</span>}
     </div>
   );
 
@@ -97,7 +99,7 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
     <div className="pb-16 sm:pb-0">
       {bar}
       <div className="mb-3 text-center">
-        <Link href={`/truyen/${slug}`} className="text-lg font-bold hover:text-accent">{title}</Link>
+        <Link href={`${base}/${slug}`} className="text-lg font-bold hover:text-accent">{title}</Link>
         <h1 className="text-sm text-muted">{chapter.title}</h1>
       </div>
       {nav}

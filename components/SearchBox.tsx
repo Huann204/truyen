@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "@/components/PrefetchLink";
 
-type Hit = { slug: string; title: string; cover: string; author?: string };
+type Hit = { slug: string; title: string; cover: string; author?: string; href: string };
 
 export default function SearchBox() {
   const router = useRouter();
@@ -47,8 +47,8 @@ export default function SearchBox() {
       {open && q.trim().length >= 2 && hits.length > 0 && (
         <ul className="absolute left-0 right-0 top-full mt-2 max-h-96 overflow-auto rounded-xl border border-border bg-card shadow-lg">
           {hits.map((h) => (
-            <li key={h.slug}>
-              <Link href={`/truyen/${h.slug}`} onClick={() => setOpen(false)} className="flex items-center gap-3 p-2 hover:bg-accent/10">
+            <li key={h.href}>
+              <Link href={h.href} onClick={() => setOpen(false)} className="flex items-center gap-3 p-2 hover:bg-accent/10">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={assetUrl(h.cover)} alt="" className="h-12 w-9 rounded object-cover" />
                 <span className="min-w-0">

@@ -13,7 +13,7 @@ export default function ContinueReading() {
       <SectionTitle title="Đang đọc dở" href="/lich-su" />
       <div className="no-scrollbar -mx-3 flex snap-x gap-3 overflow-x-auto px-3 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 lg:grid-cols-3">
         {history.map((h) => (
-          <Link key={h.slug} href={`/truyen/${h.slug}/${h.chapterSlug}`} className="flex w-72 shrink-0 snap-start gap-3 rounded-xl border border-border bg-card p-2 shadow-sm hover:border-accent sm:w-auto">
+          <Link key={h.slug} href={`${h.base ?? "/truyen"}/${h.slug}/${h.chapterSlug}`} className="flex w-72 shrink-0 snap-start gap-3 rounded-xl border border-border bg-card p-2 shadow-sm hover:border-accent sm:w-auto">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={assetUrl(h.cover)} alt="" className="h-20 w-14 rounded-lg object-cover" />
             <div className="min-w-0 self-center">
