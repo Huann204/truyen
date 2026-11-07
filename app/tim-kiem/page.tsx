@@ -25,7 +25,7 @@ async function Results({ q, p }: { q: string; p: number }) {
             <Link key={s.slug} href={`/thu-vien/${s.slug}`} className="group block">
               <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-border shadow-sm ring-1 ring-black/5">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={placeholderCover(s.title)} alt={s.title} className="absolute inset-0 h-full w-full object-cover" />
+                <img src={s.cover || placeholderCover(s.title)} alt={s.title} className="absolute inset-0 h-full w-full object-cover" />
                 <span className="absolute left-1.5 top-1.5 rounded-md bg-black/70 px-1.5 py-0.5 text-[10px] font-bold text-orange-300">CỦA TÔI</span>
                 <span className="absolute bottom-1.5 left-2 right-2 truncate text-[11px] font-medium text-white drop-shadow">{s.chapters.length} chương</span>
               </div>

@@ -12,8 +12,8 @@ export async function GET(req: Request) {
     ...lib.slice(0, 3).map((s) => ({
       slug: s.slug,
       title: s.title,
-      cover: placeholderCover(s.title),
-      author: "Truyện của tôi",
+      cover: s.cover || placeholderCover(s.title),
+      author: s.author ? `${s.author} • Truyện của tôi` : "Truyện của tôi",
       href: `/thu-vien/${s.slug}`,
     })),
     ...data.map((s) => ({ slug: s.slug, title: s.title, cover: s.cover, author: s.author, href: `/truyen/${s.slug}` })),
