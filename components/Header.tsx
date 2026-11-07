@@ -2,6 +2,7 @@ import Link from "@/components/PrefetchLink";
 import { SHOW_ADULT } from "@/lib/config";
 import SearchBox from "./SearchBox";
 import ThemeToggle from "./ThemeToggle";
+import Logo from "./Logo";
 
 const nav = [
   { href: "/truyen-chu", label: "Truyện chữ", mobile: true },
@@ -19,10 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-30 border-b border-border bg-card/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center gap-2 px-3 py-2.5 sm:gap-4 sm:px-4">
-        <Link href="/" className="shrink-0 text-xl font-black tracking-tight sm:text-2xl">
-          <span className="inline-block bg-gradient-to-r from-accent to-orange-400 bg-clip-text pr-[3px] -mr-[3px] text-transparent">Kho</span>
-          <span>Truyện</span>
-        </Link>
+        <Logo href="/" />
         <SearchBox />
         <ThemeToggle />
       </div>

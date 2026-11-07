@@ -15,6 +15,15 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, maxi
 export const metadata: Metadata = {
   title: { default: "KhoTruyện - Đọc truyện chữ, truyện tranh online", template: "%s | KhoTruyện" },
   description: "Đọc truyện chữ và truyện tranh online miễn phí, cập nhật nhanh mỗi ngày.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 const themeScript = `try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch(e){}`;

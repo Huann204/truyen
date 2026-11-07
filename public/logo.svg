@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" width="460" height="100">
+  <defs>
+    <linearGradient id="lPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF385C"/>
+      <stop offset="45%" stop-color="#FF5A36"/>
+      <stop offset="100%" stop-color="#FFA114"/>
+    </linearGradient>
+    <linearGradient id="lSecondary" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="lWing" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFA826"/>
+      <stop offset="100%" stop-color="#FF4336"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Icon (80x80 centered at x=50, y=50) -->
+  <g transform="translate(50, 50) scale(0.28)">
+    <path d="M -130,-115 C -130,-130 -115,-140 -98,-135 L -42,-120 C -30,-116 -20,-106 -20,-92 L -20,105 C -20,122 -35,134 -52,130 L -108,114 C -122,110 -130,98 -130,84 Z" fill="url(#lSecondary)"/>
+    <path d="M -118,-95 C -118,-106 -108,-113 -96,-110 L -46,-97 C -38,-95 -32,-88 -32,-79 L -32,80 C -32,91 -42,98 -54,95 L -104,82 C -113,80 -118,72 -118,63 Z" fill="rgba(255,255,255,0.25)"/>
+    <path d="M -10,-15 C -10,-28 0,-38 12,-42 L 105,-82 C 124,-90 144,-74 140,-53 L 125,-10 C 121,-1 113,6 103,9 L 22,34 C 4,40 -10,26 -10,9 Z" fill="url(#lWing)"/>
+    <path d="M 12,-20 L 95,-55 C 107,-60 119,-50 117,-37 L 107,-7 L 22,20 Z" fill="rgba(255,255,255,0.25)"/>
+    <path d="M -5,45 C 8,38 24,42 34,51 L 115,112 C 129,122 124,144 107,148 L 60,155 C 48,157 37,151 30,142 L -20,78 C -30,64 -18,48 -5,45 Z" fill="url(#lPrimary)"/>
+    <path d="M -26,-135 C -26,-140 -20,-144 -15,-142 L 0,-136 C 6,-134 10,-128 10,-122 L 10,132 C 10,140 2,146 -6,144 L -20,140 C -24,138 -26,134 -26,130 Z" fill="url(#lPrimary)" opacity="0.95"/>
+    <g transform="translate(122, -108) scale(0.95)">
+      <path d="M 0,-28 C 2,-10 10,-2 28,0 C 10,2 2,10 0,28 C -2,10 -10,2 -28,0 C -10,-2 -2,-10 0,-28 Z" fill="#FFAE33"/>
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="108" y="62" font-family="'Be Vietnam Pro', system-ui, sans-serif" font-weight="900" font-size="44" letter-spacing="-1">
+    <tspan fill="url(#lPrimary)">Kho</tspan>
+    <tspan fill="#1C1C22" class="dark-text" dx="-1">Truyện</tspan>
+  </text>
+  <text x="110" y="82" font-family="'Be Vietnam Pro', system-ui, sans-serif" font-weight="600" font-size="12" letter-spacing="2.5" fill="#8E8E9E">
+    THẾ GIỚI TRUYỆN TRANH &amp; CHỮ
+  </text>
+</svg>
