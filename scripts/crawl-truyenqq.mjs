@@ -54,23 +54,22 @@ async function main() {
   const coverUrl = coverMatch ? coverMatch[1] : '';
 
   // Author
-  const authorMatch = html.match(/<li class="author row">[\s\S]*?<a[^>]*>([^<]+)<\/a>/i) ||
-                      html.match(/tác giả:\s*<[^>]+>([^<]+)</i);
-  const author = authorMatch ? authorMatch[1].trim() : 'Au Yao Hsing';
+  const authorMatch = html.match(/Tác giả:\s*<\/span>\s*<span class="result">\s*<span>([^<]+)<\/span>/i) ||
+                      html.match(/class="result"[^>]*>\s*<span>([^<]+)<\/span>/i);
+  const author = authorMatch ? authorMatch[1].trim() : 'Đang cập nhật';
 
   // Status
-  const statusMatch = html.match(/<li class="status row">[\s\S]*?<p class="col-xs-8">([^<]+)<\/p>/i);
-  const status = statusMatch ? statusMatch[1].trim() : 'Hoàn thành';
+  const statusMatch = html.match(/class="label-status[^"]*">([^<]+)<\/span>/i);
+  const status = statusMatch ? statusMatch[1].trim() : 'Đang cập nhật';
 
   // Description
-  const descMatch = html.match(/<div class="story-detail-info[^"]*"[^>]*>([\s\S]*?)<\/div>/i);
-  const description = descMatch ? descMatch[1].replace(/<[^>]+>/g, '').trim() : 'Bộ truyện tranh hài hước kinh điển Ô Long Viện.';
+  const descMatch = html.match(/itemprop="description"[^>]*>([\s\S]*?)<\/div>/i);
+  const description = descMatch ? descMatch[1].replace(/<[^>]+>/g, '').trim() : '';
 
   // Genres
-  const genreRegex = /<li class="category row">[\s\S]*?<\/li>/i;
-  const genreBlock = html.match(genreRegex)?.[0] || '';
+  const genreBlockMatch = html.match(/Thể loại:\s*<\/span>\s*<span class="result">([\s\S]*?)<\/span>/i);
+  const genreBlock = genreBlockMatch?.[1] || '';
   const genres = [...genreBlock.matchAll(/<a[^>]*>([^<]+)<\/a>/gi)].map(m => m[1].trim());
-  if (!genres.length) genres.push('Hài Hước', 'Manga');
 
   // Save cover as local webp
   let coverPath = `/covers/${userSlug}.webp`;

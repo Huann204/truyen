@@ -1,0 +1,78 @@
+{
+  "slug": "ty-quay",
+  "title": "Tý Quậy",
+  "cover": "/covers/ty-quay.webp",
+  "author": "Đào Hải",
+  "status": "Hoàn thành",
+  "genres": [
+    "Hài Hước",
+    "Học Đường",
+    "Việt Nam",
+    "Manga"
+  ],
+  "description": "“Tý Quậy” là bộ truyện tranh dành cho thiếu nhi, kể về cậu bé Tý – tính tình nghịch ngợm, thông minh, có phần “quậy phá” nhưng cũng hồn nhiên, dễ thương. Truyện xoay quanh các tình huống đời thường: trường học, gia đình, bạn bè, hàng xóm… với nhiều chi tiết hài hước nhưng cũng ẩn chứa bài học nhẹ nhàng về tình bạn, sự trung thực, tinh nghịch tuổi học trò.",
+  "type": "manga",
+  "source": "https://tuthienbao.com/forum/showthread.php?p=385299",
+  "chapters": [
+    {
+      "slug": "tap-1",
+      "num": 1,
+      "title": "Tập 1",
+      "pages": 173
+    },
+    {
+      "slug": "tap-2",
+      "num": 2,
+      "title": "Tập 2",
+      "pages": 172
+    },
+    {
+      "slug": "tap-3",
+      "num": 3,
+      "title": "Tập 3",
+      "pages": 172
+    },
+    {
+      "slug": "tap-4",
+      "num": 4,
+      "title": "Tập 4",
+      "pages": 173
+    },
+    {
+      "slug": "tap-5",
+      "num": 5,
+      "title": "Tập 5",
+      "pages": 172
+    },
+    {
+      "slug": "tap-6",
+      "num": 6,
+      "title": "Tập 6",
+      "pages": 173
+    },
+    {
+      "slug": "tap-7",
+      "num": 7,
+      "title": "Tập 7",
+      "pages": 173
+    },
+    {
+      "slug": "tap-8",
+      "num": 8,
+      "title": "Tập 8",
+      "pages": 173
+    },
+    {
+      "slug": "tap-9",
+      "num": 9,
+      "title": "Tập 9",
+      "pages": 188
+    },
+    {
+      "slug": "tap-10-1",
+      "num": 10,
+      "title": "Tập 10 (Chap 1)",
+      "pages": 117
+    }
+  ]
+}
