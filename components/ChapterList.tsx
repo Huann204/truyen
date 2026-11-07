@@ -27,11 +27,11 @@ export default function ChapterList({ slug, chapters, base = "/truyen" }: { slug
           {asc ? "Cũ → Mới" : "Mới → Cũ"}
         </button>
       </div>
-      <ul className="grid gap-x-4 sm:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
         {list.slice(0, limit).map((c) => (
-          <li key={c.slug} className="border-b border-border">
+          <li key={c.slug} className="min-w-0 border-b border-border">
             <Link href={`${base}/${slug}/${c.slug}`} className={`flex items-center justify-between gap-2 py-2 text-sm hover:text-accent ${readSlug === c.slug ? "font-semibold text-accent" : ""}`}>
-              <span className="truncate">{c.title}{c.isNew && <span className="ml-2 rounded bg-accent px-1 text-[10px] text-white">NEW</span>}</span>
+              <span className="min-w-0 truncate">{c.title}{c.isNew && <span className="ml-2 rounded bg-accent px-1 text-[10px] text-white">NEW</span>}</span>
               <span className="shrink-0 text-xs text-muted">{c.date}</span>
             </Link>
           </li>

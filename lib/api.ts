@@ -83,7 +83,7 @@ export async function searchStories(q: string, page = 1, perPage = 24) {
 }
 
 export async function getHomeSections() {
-  const r = await get<{ data: Section[] }>("/api/home-sections", 120);
+  const r = await get<{ data: Section[] }>("/api/home-sections", 86400);
   // chỉ lấy các mục không phải 18+
   return r?.data ?? [];
 }
@@ -99,7 +99,7 @@ export async function getGenre(slug: string) {
 }
 
 export async function getStats() {
-  const r = await get<{ data: Record<string, number> }>("/api/stats", 600);
+  const r = await get<{ data: Record<string, number> }>("/api/stats", 86400);
   return r?.data ?? null;
 }
 
