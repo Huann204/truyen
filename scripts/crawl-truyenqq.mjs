@@ -3,9 +3,11 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 
-const targetUrl = process.argv[2] || 'https://truyenqq.com.vn/o-long-vien';
-const userSlug = process.argv[3] || 'o-long-vien';
-const userTitle = process.argv[4] || 'Ô Long Viện';
+const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const targetUrl = args[0] || 'https://truyenqq.com.vn/o-long-vien';
+const defaultSlug = targetUrl.split('/').filter(Boolean).pop() || 'truyen';
+const userSlug = args[1] || defaultSlug;
+const userTitle = args[2];
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
 const OUT = path.join(process.cwd(), 'data', 'library', userSlug);
@@ -88,7 +90,7 @@ async function main() {
   }
 
   // Chapter list
-  const chapRegex = /<a[^>]+href="([^"]*o-long-vien\/chapter-[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi;
+  const chapRegex = new RegExp('<a[^>]+href="([^"]*(?:' + defaultSlug + '|chapter)[^"]*)"[^>]*>([\\s\\S]*?)<\\/a>', 'gi');
   const rawList = [];
   const seenUrls = new Set();
   let m;
