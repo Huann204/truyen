@@ -42,7 +42,7 @@ export default async function LibraryStoryPage({ params }: Props) {
             ) : (
               <div><dt className="inline text-muted">Số từ: </dt><dd className="inline font-semibold">~{words.toLocaleString("vi-VN")}</dd></div>
             )}
-            <div><dt className="inline text-muted">Loại: </dt><dd className="inline font-semibold">{isManga ? "Truyện tranh (tải về máy)" : "Truyện chữ (tải về máy)"}</dd></div>
+            <div><dt className="inline text-muted">Loại: </dt><dd className="inline font-semibold">{isManga ? "Truyện tranh " : "Truyện chữ (tải về máy)"}</dd></div>
             {story.status && (
               <div><dt className="inline text-muted">Tình trạng: </dt><dd className="inline font-semibold">{story.status}</dd></div>
             )}
