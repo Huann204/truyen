@@ -1,4 +1,5 @@
 import Link from "@/components/PrefetchLink";
+import { SHOW_ADULT } from "@/lib/config";
 import SearchBox from "./SearchBox";
 import ThemeToggle from "./ThemeToggle";
 
@@ -26,7 +27,7 @@ export default function Header() {
         <ThemeToggle />
       </div>
       <nav className="no-scrollbar mx-auto hidden max-w-6xl gap-1 overflow-x-auto px-4 pb-2 text-sm sm:flex">
-        {nav.map((n) => (
+        {nav.filter((n) => SHOW_ADULT || n.href !== "/truyen-hentai").map((n) => (
           <Link
             key={n.href}
             href={n.href}

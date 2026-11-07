@@ -3,6 +3,7 @@ import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { SHOW_ADULT } from "@/lib/config";
 import BottomNav from "@/components/BottomNav";
 
 const sans = Be_Vietnam_Pro({ variable: "--font-body", subsets: ["latin", "latin-ext", "vietnamese"], weight: ["400", "500", "600", "700", "800", "900"], display: "swap" });
@@ -25,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1 mx-auto w-full max-w-6xl px-3 py-4 pb-24 sm:px-4 sm:py-6 sm:pb-8">{children}</main>
         <Footer />
-        <BottomNav />
+        <BottomNav showAdult={SHOW_ADULT} />
       </body>
     </html>
   );

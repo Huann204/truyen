@@ -22,7 +22,7 @@ const menu = [
   { href: "/sap-ra-mat", label: "Sắp ra mắt", emoji: "⏳" },
 ];
 
-export default function BottomNav() {
+export default function BottomNav({ showAdult = false }: { showAdult?: boolean }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);
   // Ẩn ở trang đọc để không che nội dung
@@ -36,7 +36,7 @@ export default function BottomNav() {
           <div className="absolute inset-x-0 bottom-0 rounded-t-3xl border-t border-border bg-card p-4 pb-24 shadow-2xl" onClick={(e) => e.stopPropagation()}>
             <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-border" />
             <div className="grid grid-cols-3 gap-3">
-              {menu.map((m) => (
+              {menu.filter((m) => showAdult || m.href !== "/truyen-hentai").map((m) => (
                 <Link key={m.href} href={m.href} onClick={() => setOpen(false)} className="flex flex-col items-center gap-1 rounded-2xl bg-background p-3 text-xs font-medium active:scale-95">
                   <span className="text-2xl">{m.emoji}</span>
                   {m.label}
