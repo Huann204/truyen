@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -8,6 +8,9 @@ import BottomNav from "@/components/BottomNav";
 
 const sans = Be_Vietnam_Pro({ variable: "--font-body", subsets: ["latin", "latin-ext", "vietnamese"], weight: ["400", "500", "600", "700", "800", "900"], display: "swap" });
 const serif = Noto_Serif({ variable: "--font-reader-serif", subsets: ["latin", "latin-ext", "vietnamese"], display: "swap" });
+
+// maximumScale=1: iPhone không tự phóng to khi chạm vào ô nhập (vẫn giữ chữ 14px gọn)
+export const viewport: Viewport = { width: "device-width", initialScale: 1, maximumScale: 1 };
 
 export const metadata: Metadata = {
   title: { default: "KhoTruyện - Đọc truyện chữ, truyện tranh online", template: "%s | KhoTruyện" },

@@ -50,3 +50,4 @@ html { -webkit-tap-highlight-color: transparent; scrollbar-gutter: stable; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 .marquee { animation: marquee 30s linear infinite; }
 @media (prefers-reduced-motion: reduce) { .marquee { animation: none; } }
+
