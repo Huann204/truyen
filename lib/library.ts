@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
@@ -46,7 +47,7 @@ export async function listLibrary(): Promise<LibStory[]> {
   return out.sort((a, b) => (b.updatedAt ?? "").localeCompare(a.updatedAt ?? ""));
 }
 
-export async function getLibStory(slug: string): Promise<LibStory | null> {
+export const getLibStory = cache(async (slug: string): Promise<LibStory | null> => {
   const s = decodeURIComponent(slug);
   if (!safe(s)) return null;
   try {
@@ -54,9 +55,9 @@ export async function getLibStory(slug: string): Promise<LibStory | null> {
   } catch {
     return null;
   }
-}
+});
 
-export async function getLibChapter(slug: string, chapter: string): Promise<LibChapter | null> {
+export const getLibChapter = cache(async (slug: string, chapter: string): Promise<LibChapter | null> => {
   const s = decodeURIComponent(slug);
   const c = decodeURIComponent(chapter);
   if (!safe(s) || !safe(c)) return null;
@@ -65,7 +66,7 @@ export async function getLibChapter(slug: string, chapter: string): Promise<LibC
   } catch {
     return null;
   }
-}
+});
 
 // Truyện tải về không có ảnh bìa -> tạo bìa chữ cái đầu bằng SVG
 export function placeholderCover(title: string) {
