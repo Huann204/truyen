@@ -82,7 +82,7 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
       >
         {chapters.map((c) => <option key={c.slug} value={c.slug}>{c.title}</option>)}
       </select>
-      {next ? <Link href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">Chương sau ›</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">Chương sau ›</span>}
+      {next ? <Link prefetch href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 font-medium text-white">Chương sau ›</Link> : <span className="rounded-lg border border-border px-4 py-2 opacity-40">Chương sau ›</span>}
     </div>
   );
 
@@ -91,7 +91,7 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
       {prev ? <Link href={`${base}/${slug}/${prev}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">‹</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">‹</span>}
       <Link href={`${base}/${slug}`} className="min-w-0 flex-1 truncate rounded-lg border border-border px-3 py-2 text-center text-sm">{chapter.title}</Link>
       {isText && <button onClick={() => setPanel((v) => !v)} aria-label="Tùy chỉnh" className="rounded-lg border border-border px-3 py-2 text-sm">Aa</button>}
-      {next ? <Link href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">›</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">›</span>}
+      {next ? <Link prefetch href={`${base}/${slug}/${next}`} className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white">›</Link> : <span className="rounded-lg border border-border px-4 py-2 text-sm opacity-40">›</span>}
     </div>
   );
 
