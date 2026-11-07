@@ -26,10 +26,10 @@ export default async function LibraryChapterPage({ params }: Props) {
       base="/thu-vien"
       slug={slug}
       title={story.title}
-      cover={placeholderCover(story.title)}
-      chapter={{ slug: current.slug, title: current.title, mediaType: "text" }}
-      paragraphs={current.paragraphs}
-      pages={[]}
+      cover={story.cover || placeholderCover(story.title)}
+      chapter={{ slug: current.slug, title: current.title, mediaType: current.mediaType ?? (current.pages && current.pages.length > 0 ? "image" : "text") }}
+      paragraphs={current.paragraphs ?? []}
+      pages={current.pages ?? []}
       prev={prev}
       next={next}
       chapters={list.map((c) => ({ slug: c.slug, title: c.title }))}

@@ -1,0 +1,2311 @@
+{
+  "slug": "berserk",
+  "title": "Berserk",
+  "cover": "/covers/berserk.webp",
+  "author": "Kentarō Miura",
+  "status": "Đang tiến hành",
+  "genres": [
+    "Action",
+    "Adult",
+    "Adventure",
+    "Manga"
+  ],
+  "description": "Trong bối cảnh loạn lạc của chiến tranh, mỗi con người khi sinh ra đều mang một sứ mệnh và vai trò nhất định. Đặc biệt, có những người được xem là có khả năng thay đổi thế giới, họ được gọi là \"God Hand\" và có quyền phán xét mọi việc. Đến một lúc nào đó người mang số mệnh phải đứng trước sự lựa chọn cho cuộc đời mình: đi theo số phận sắp đặt trở thành thành viên của God Hand hay tự tìm cho mình lối đi riêng... Từ đó phát triển ra hai tuyến nhân vật, một đồng ý với những gì số phận sắp đặt, một từ bỏ để đi theo con đường riêng của mình.  Nhân vật chính trong truyện là Gatts, từ nhỏ đã bị xem là một đứa bé đem lại xui xẻo vì người ta nói rằng anh sinh ra từ một xác chết. Gatts là một kiếm sĩ với thanh kiếm to bản đeo trên lưng, chỉ với một nhát anh có thể khiến đối phương gãy lìa. Nhưng đồng thời Gatts cũng là một Berserker - những con người chỉ biết chiến đấu điên cuồng với thứ vũ khí khủng khiếp và thường không thể làm chủ được cơn phẫn nộ của bản thân trong những cuộc đối đầu.",
+  "type": "manga",
+  "source": "https://nettruyen.cx/truyen-tranh/berserk",
+  "chapters": [
+    {
+      "slug": "chuong-0",
+      "num": 0,
+      "title": "Chapter 0",
+      "pages": 95
+    },
+    {
+      "slug": "chuong-1",
+      "num": 1,
+      "title": "Chapter 1",
+      "pages": 97
+    },
+    {
+      "slug": "chuong-2",
+      "num": 2,
+      "title": "Chapter 2",
+      "pages": 95
+    },
+    {
+      "slug": "chuong-3",
+      "num": 3,
+      "title": "Chapter 3",
+      "pages": 67
+    },
+    {
+      "slug": "chuong-4",
+      "num": 4,
+      "title": "Chapter 4",
+      "pages": 58
+    },
+    {
+      "slug": "chuong-5",
+      "num": 5,
+      "title": "Chapter 5",
+      "pages": 54
+    },
+    {
+      "slug": "chuong-6",
+      "num": 6,
+      "title": "Chapter 6",
+      "pages": 66
+    },
+    {
+      "slug": "chuong-7",
+      "num": 7,
+      "title": "Chapter 7",
+      "pages": 59
+    },
+    {
+      "slug": "chuong-8",
+      "num": 8,
+      "title": "Chapter 8",
+      "pages": 65
+    },
+    {
+      "slug": "chuong-9",
+      "num": 9,
+      "title": "Chapter 9",
+      "pages": 53
+    },
+    {
+      "slug": "chuong-10",
+      "num": 10,
+      "title": "Chapter 10",
+      "pages": 57
+    },
+    {
+      "slug": "chuong-11",
+      "num": 11,
+      "title": "Chapter 11",
+      "pages": 54
+    },
+    {
+      "slug": "chuong-12",
+      "num": 12,
+      "title": "Chapter 12",
+      "pages": 50
+    },
+    {
+      "slug": "chuong-13",
+      "num": 13,
+      "title": "Chapter 13",
+      "pages": 51
+    },
+    {
+      "slug": "chuong-14",
+      "num": 14,
+      "title": "Chapter 14",
+      "pages": 47
+    },
+    {
+      "slug": "chuong-15",
+      "num": 15,
+      "title": "Chapter 15",
+      "pages": 41
+    },
+    {
+      "slug": "chuong-16",
+      "num": 16,
+      "title": "Chapter 16",
+      "pages": 45
+    },
+    {
+      "slug": "chuong-17",
+      "num": 17,
+      "title": "Chapter 17",
+      "pages": 44
+    },
+    {
+      "slug": "chuong-18",
+      "num": 18,
+      "title": "Chapter 18",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-19",
+      "num": 19,
+      "title": "Chapter 19",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-20",
+      "num": 20,
+      "title": "Chapter 20",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-21",
+      "num": 21,
+      "title": "Chapter 21",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-22",
+      "num": 22,
+      "title": "Chapter 22",
+      "pages": 33
+    },
+    {
+      "slug": "chuong-23",
+      "num": 23,
+      "title": "Chapter 23",
+      "pages": 33
+    },
+    {
+      "slug": "chuong-24",
+      "num": 24,
+      "title": "Chapter 24",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-25",
+      "num": 25,
+      "title": "Chapter 25",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-26",
+      "num": 26,
+      "title": "Chapter 26",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-27",
+      "num": 27,
+      "title": "Chapter 27",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-28",
+      "num": 28,
+      "title": "Chapter 28",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-29",
+      "num": 29,
+      "title": "Chapter 29",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-30",
+      "num": 30,
+      "title": "Chapter 30",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-31",
+      "num": 31,
+      "title": "Chapter 31",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-32",
+      "num": 32,
+      "title": "Chapter 32",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-33",
+      "num": 33,
+      "title": "Chapter 33",
+      "pages": 32
+    },
+    {
+      "slug": "chuong-34",
+      "num": 34,
+      "title": "Chapter 34",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-35",
+      "num": 35,
+      "title": "Chapter 35",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-36",
+      "num": 36,
+      "title": "Chapter 36",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-37",
+      "num": 37,
+      "title": "Chapter 37",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-38",
+      "num": 38,
+      "title": "Chapter 38",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-39",
+      "num": 39,
+      "title": "Chapter 39",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-40",
+      "num": 40,
+      "title": "Chapter 40",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-41",
+      "num": 41,
+      "title": "Chapter 41",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-42",
+      "num": 42,
+      "title": "Chapter 42",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-43",
+      "num": 43,
+      "title": "Chapter 43",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-44",
+      "num": 44,
+      "title": "Chapter 44",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-45",
+      "num": 45,
+      "title": "Chapter 45",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-46",
+      "num": 46,
+      "title": "Chapter 46",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-47",
+      "num": 47,
+      "title": "Chapter 47",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-48",
+      "num": 48,
+      "title": "Chapter 48",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-49",
+      "num": 49,
+      "title": "Chapter 49",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-50",
+      "num": 50,
+      "title": "Chapter 50",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-51",
+      "num": 51,
+      "title": "Chapter 51",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-52",
+      "num": 52,
+      "title": "Chapter 52",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-53",
+      "num": 53,
+      "title": "Chapter 53",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-54",
+      "num": 54,
+      "title": "Chapter 54",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-55",
+      "num": 55,
+      "title": "Chapter 55",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-56",
+      "num": 56,
+      "title": "Chapter 56",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-57",
+      "num": 57,
+      "title": "Chapter 57",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-58",
+      "num": 58,
+      "title": "Chapter 58",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-59",
+      "num": 59,
+      "title": "Chapter 59",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-60",
+      "num": 60,
+      "title": "Chapter 60",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-61",
+      "num": 61,
+      "title": "Chapter 61",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-62",
+      "num": 62,
+      "title": "Chapter 62",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-63",
+      "num": 63,
+      "title": "Chapter 63",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-64",
+      "num": 64,
+      "title": "Chapter 64",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-65",
+      "num": 65,
+      "title": "Chapter 65",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-66",
+      "num": 66,
+      "title": "Chapter 66",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-67",
+      "num": 67,
+      "title": "Chapter 67",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-68",
+      "num": 68,
+      "title": "Chapter 68",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-69",
+      "num": 69,
+      "title": "Chapter 69",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-70",
+      "num": 70,
+      "title": "Chapter 70",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-71",
+      "num": 71,
+      "title": "Chapter 71",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-72",
+      "num": 72,
+      "title": "Chapter 72",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-73",
+      "num": 73,
+      "title": "Chapter 73",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-74",
+      "num": 74,
+      "title": "Chapter 74",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-75",
+      "num": 75,
+      "title": "Chapter 75",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-76",
+      "num": 76,
+      "title": "Chapter 76",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-77",
+      "num": 77,
+      "title": "Chapter 77",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-78",
+      "num": 78,
+      "title": "Chapter 78",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-79",
+      "num": 79,
+      "title": "Chapter 79",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-80",
+      "num": 80,
+      "title": "Chapter 80",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-81",
+      "num": 81,
+      "title": "Chapter 81",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-82",
+      "num": 82,
+      "title": "Chapter 82",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-83",
+      "num": 83,
+      "title": "Chapter 83",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-84",
+      "num": 84,
+      "title": "Chapter 84",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-85",
+      "num": 85,
+      "title": "Chapter 85",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-86",
+      "num": 86,
+      "title": "Chapter 86",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-87",
+      "num": 87,
+      "title": "Chapter 87",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-88",
+      "num": 88,
+      "title": "Chapter 88",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-89",
+      "num": 89,
+      "title": "Chapter 89",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-90",
+      "num": 90,
+      "title": "Chapter 90",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-91",
+      "num": 91,
+      "title": "Chapter 91",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-92",
+      "num": 92,
+      "title": "Chapter 92",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-93",
+      "num": 93,
+      "title": "Chapter 93",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-94",
+      "num": 94,
+      "title": "Chapter 94",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-95",
+      "num": 95,
+      "title": "Chapter 95",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-96",
+      "num": 96,
+      "title": "Chapter 96",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-97",
+      "num": 97,
+      "title": "Chapter 97",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-98",
+      "num": 98,
+      "title": "Chapter 98",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-99",
+      "num": 99,
+      "title": "Chapter 99",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-100",
+      "num": 100,
+      "title": "Chapter 100",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-101",
+      "num": 101,
+      "title": "Chapter 101",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-102",
+      "num": 102,
+      "title": "Chapter 102",
+      "pages": 33
+    },
+    {
+      "slug": "chuong-103",
+      "num": 103,
+      "title": "Chapter 103",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-104",
+      "num": 104,
+      "title": "Chapter 104",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-105",
+      "num": 105,
+      "title": "Chapter 105",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-106",
+      "num": 106,
+      "title": "Chapter 106",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-107",
+      "num": 107,
+      "title": "Chapter 107",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-108",
+      "num": 108,
+      "title": "Chapter 108",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-109",
+      "num": 109,
+      "title": "Chapter 109",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-110",
+      "num": 110,
+      "title": "Chapter 110",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-111",
+      "num": 111,
+      "title": "Chapter 111",
+      "pages": 32
+    },
+    {
+      "slug": "chuong-112",
+      "num": 112,
+      "title": "Chapter 112",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-113",
+      "num": 113,
+      "title": "Chapter 113",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-114",
+      "num": 114,
+      "title": "Chapter 114",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-115",
+      "num": 115,
+      "title": "Chapter 115",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-116",
+      "num": 116,
+      "title": "Chapter 116",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-117",
+      "num": 117,
+      "title": "Chapter 117",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-118",
+      "num": 118,
+      "title": "Chapter 118",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-119",
+      "num": 119,
+      "title": "Chapter 119",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-120",
+      "num": 120,
+      "title": "Chapter 120",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-121",
+      "num": 121,
+      "title": "Chapter 121",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-122",
+      "num": 122,
+      "title": "Chapter 122",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-123",
+      "num": 123,
+      "title": "Chapter 123",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-124",
+      "num": 124,
+      "title": "Chapter 124",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-125",
+      "num": 125,
+      "title": "Chapter 125",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-126",
+      "num": 126,
+      "title": "Chapter 126",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-127",
+      "num": 127,
+      "title": "Chapter 127",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-128",
+      "num": 128,
+      "title": "Chapter 128",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-129",
+      "num": 129,
+      "title": "Chapter 129",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-130",
+      "num": 130,
+      "title": "Chapter 130",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-131",
+      "num": 131,
+      "title": "Chapter 131",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-132",
+      "num": 132,
+      "title": "Chapter 132",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-133",
+      "num": 133,
+      "title": "Chapter 133",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-134",
+      "num": 134,
+      "title": "Chapter 134",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-135",
+      "num": 135,
+      "title": "Chapter 135",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-136",
+      "num": 136,
+      "title": "Chapter 136",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-137",
+      "num": 137,
+      "title": "Chapter 137",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-138",
+      "num": 138,
+      "title": "Chapter 138",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-139",
+      "num": 139,
+      "title": "Chapter 139",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-140",
+      "num": 140,
+      "title": "Chapter 140",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-141",
+      "num": 141,
+      "title": "Chapter 141",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-142",
+      "num": 142,
+      "title": "Chapter 142",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-143",
+      "num": 143,
+      "title": "Chapter 143",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-144",
+      "num": 144,
+      "title": "Chapter 144",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-145",
+      "num": 145,
+      "title": "Chapter 145",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-146",
+      "num": 146,
+      "title": "Chapter 146",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-147",
+      "num": 147,
+      "title": "Chapter 147",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-148",
+      "num": 148,
+      "title": "Chapter 148",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-149",
+      "num": 149,
+      "title": "Chapter 149",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-150",
+      "num": 150,
+      "title": "Chapter 150",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-151",
+      "num": 151,
+      "title": "Chapter 151",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-152",
+      "num": 152,
+      "title": "Chapter 152",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-153",
+      "num": 153,
+      "title": "Chapter 153",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-154",
+      "num": 154,
+      "title": "Chapter 154",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-155",
+      "num": 155,
+      "title": "Chapter 155",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-156",
+      "num": 156,
+      "title": "Chapter 156",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-157",
+      "num": 157,
+      "title": "Chapter 157",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-158",
+      "num": 158,
+      "title": "Chapter 158",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-159",
+      "num": 159,
+      "title": "Chapter 159",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-160",
+      "num": 160,
+      "title": "Chapter 160",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-161",
+      "num": 161,
+      "title": "Chapter 161",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-162",
+      "num": 162,
+      "title": "Chapter 162",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-163",
+      "num": 163,
+      "title": "Chapter 163",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-164",
+      "num": 164,
+      "title": "Chapter 164",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-165",
+      "num": 165,
+      "title": "Chapter 165",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-166",
+      "num": 166,
+      "title": "Chapter 166",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-167",
+      "num": 167,
+      "title": "Chapter 167",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-168",
+      "num": 168,
+      "title": "Chapter 168",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-169",
+      "num": 169,
+      "title": "Chapter 169",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-170",
+      "num": 170,
+      "title": "Chapter 170",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-171",
+      "num": 171,
+      "title": "Chapter 171",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-172",
+      "num": 172,
+      "title": "Chapter 172",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-173",
+      "num": 173,
+      "title": "Chapter 173",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-174",
+      "num": 174,
+      "title": "Chapter 174",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-175",
+      "num": 175,
+      "title": "Chapter 175",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-176",
+      "num": 176,
+      "title": "Chapter 176",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-177",
+      "num": 177,
+      "title": "Chapter 177",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-178",
+      "num": 178,
+      "title": "Chapter 178",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-179",
+      "num": 179,
+      "title": "Chapter 179",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-180",
+      "num": 180,
+      "title": "Chapter 180",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-181",
+      "num": 181,
+      "title": "Chapter 181",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-182",
+      "num": 182,
+      "title": "Chapter 182",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-183",
+      "num": 183,
+      "title": "Chapter 183",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-184",
+      "num": 184,
+      "title": "Chapter 184",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-185",
+      "num": 185,
+      "title": "Chapter 185",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-186",
+      "num": 186,
+      "title": "Chapter 186",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-187",
+      "num": 187,
+      "title": "Chapter 187",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-188",
+      "num": 188,
+      "title": "Chapter 188",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-189",
+      "num": 189,
+      "title": "Chapter 189",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-190",
+      "num": 190,
+      "title": "Chapter 190",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-191",
+      "num": 191,
+      "title": "Chapter 191",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-192",
+      "num": 192,
+      "title": "Chapter 192",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-193",
+      "num": 193,
+      "title": "Chapter 193",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-194",
+      "num": 194,
+      "title": "Chapter 194",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-195",
+      "num": 195,
+      "title": "Chapter 195",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-196",
+      "num": 196,
+      "title": "Chapter 196",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-197",
+      "num": 197,
+      "title": "Chapter 197",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-198",
+      "num": 198,
+      "title": "Chapter 198",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-199",
+      "num": 199,
+      "title": "Chapter 199",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-200",
+      "num": 200,
+      "title": "Chapter 200",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-201",
+      "num": 201,
+      "title": "Chapter 201",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-202",
+      "num": 202,
+      "title": "Chapter 202",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-203",
+      "num": 203,
+      "title": "Chapter 203",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-204",
+      "num": 204,
+      "title": "Chapter 204",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-205",
+      "num": 205,
+      "title": "Chapter 205",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-206",
+      "num": 206,
+      "title": "Chapter 206",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-207",
+      "num": 207,
+      "title": "Chapter 207",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-208",
+      "num": 208,
+      "title": "Chapter 208",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-209",
+      "num": 209,
+      "title": "Chapter 209",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-210",
+      "num": 210,
+      "title": "Chapter 210",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-211",
+      "num": 211,
+      "title": "Chapter 211",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-212",
+      "num": 212,
+      "title": "Chapter 212",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-213",
+      "num": 213,
+      "title": "Chapter 213",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-214",
+      "num": 214,
+      "title": "Chapter 214",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-215",
+      "num": 215,
+      "title": "Chapter 215",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-216",
+      "num": 216,
+      "title": "Chapter 216",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-217",
+      "num": 217,
+      "title": "Chapter 217",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-218",
+      "num": 218,
+      "title": "Chapter 218",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-219",
+      "num": 219,
+      "title": "Chapter 219",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-220",
+      "num": 220,
+      "title": "Chapter 220",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-221",
+      "num": 221,
+      "title": "Chapter 221",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-222",
+      "num": 222,
+      "title": "Chapter 222",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-223",
+      "num": 223,
+      "title": "Chapter 223",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-224",
+      "num": 224,
+      "title": "Chapter 224",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-225",
+      "num": 225,
+      "title": "Chapter 225",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-226",
+      "num": 226,
+      "title": "Chapter 226",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-227",
+      "num": 227,
+      "title": "Chapter 227",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-228",
+      "num": 228,
+      "title": "Chapter 228",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-229",
+      "num": 229,
+      "title": "Chapter 229",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-230",
+      "num": 230,
+      "title": "Chapter 230",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-231",
+      "num": 231,
+      "title": "Chapter 231",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-232",
+      "num": 232,
+      "title": "Chapter 232",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-233",
+      "num": 233,
+      "title": "Chapter 233",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-234",
+      "num": 234,
+      "title": "Chapter 234",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-235",
+      "num": 235,
+      "title": "Chapter 235",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-236",
+      "num": 236,
+      "title": "Chapter 236",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-237",
+      "num": 237,
+      "title": "Chapter 237",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-238",
+      "num": 238,
+      "title": "Chapter 238",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-239",
+      "num": 239,
+      "title": "Chapter 239",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-240",
+      "num": 240,
+      "title": "Chapter 240",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-241",
+      "num": 241,
+      "title": "Chapter 241",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-242",
+      "num": 242,
+      "title": "Chapter 242",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-243",
+      "num": 243,
+      "title": "Chapter 243",
+      "pages": 32
+    },
+    {
+      "slug": "chuong-244",
+      "num": 244,
+      "title": "Chapter 244",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-245",
+      "num": 245,
+      "title": "Chapter 245",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-246",
+      "num": 246,
+      "title": "Chapter 246",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-247",
+      "num": 247,
+      "title": "Chapter 247",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-248",
+      "num": 248,
+      "title": "Chapter 248",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-249",
+      "num": 249,
+      "title": "Chapter 249",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-250",
+      "num": 250,
+      "title": "Chapter 250",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-251",
+      "num": 251,
+      "title": "Chapter 251",
+      "pages": 28
+    },
+    {
+      "slug": "chuong-252",
+      "num": 252,
+      "title": "Chapter 252",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-253",
+      "num": 253,
+      "title": "Chapter 253",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-254",
+      "num": 254,
+      "title": "Chapter 254",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-255",
+      "num": 255,
+      "title": "Chapter 255",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-256",
+      "num": 256,
+      "title": "Chapter 256",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-257",
+      "num": 257,
+      "title": "Chapter 257",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-258",
+      "num": 258,
+      "title": "Chapter 258",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-259",
+      "num": 259,
+      "title": "Chapter 259",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-260",
+      "num": 260,
+      "title": "Chapter 260",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-261",
+      "num": 261,
+      "title": "Chapter 261",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-262",
+      "num": 262,
+      "title": "Chapter 262",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-263",
+      "num": 263,
+      "title": "Chapter 263",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-264",
+      "num": 264,
+      "title": "Chapter 264",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-265",
+      "num": 265,
+      "title": "Chapter 265",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-266",
+      "num": 266,
+      "title": "Chapter 266",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-267",
+      "num": 267,
+      "title": "Chapter 267",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-268",
+      "num": 268,
+      "title": "Chapter 268",
+      "pages": 27
+    },
+    {
+      "slug": "chuong-269",
+      "num": 269,
+      "title": "Chapter 269",
+      "pages": 47
+    },
+    {
+      "slug": "chuong-270",
+      "num": 270,
+      "title": "Chapter 270",
+      "pages": 42
+    },
+    {
+      "slug": "chuong-271",
+      "num": 271,
+      "title": "Chapter 271",
+      "pages": 47
+    },
+    {
+      "slug": "chuong-272",
+      "num": 272,
+      "title": "Chapter 272",
+      "pages": 40
+    },
+    {
+      "slug": "chuong-273",
+      "num": 273,
+      "title": "Chapter 273",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-274",
+      "num": 274,
+      "title": "Chapter 274",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-275",
+      "num": 275,
+      "title": "Chapter 275",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-276",
+      "num": 276,
+      "title": "Chapter 276",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-277",
+      "num": 277,
+      "title": "Chapter 277",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-278",
+      "num": 278,
+      "title": "Chapter 278",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-279",
+      "num": 279,
+      "title": "Chapter 279",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-280",
+      "num": 280,
+      "title": "Chapter 280",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-281",
+      "num": 281,
+      "title": "Chapter 281",
+      "pages": 38
+    },
+    {
+      "slug": "chuong-282",
+      "num": 282,
+      "title": "Chapter 282",
+      "pages": 46
+    },
+    {
+      "slug": "chuong-283",
+      "num": 283,
+      "title": "Chapter 283",
+      "pages": 46
+    },
+    {
+      "slug": "chuong-284",
+      "num": 284,
+      "title": "Chapter 284",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-285",
+      "num": 285,
+      "title": "Chapter 285",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-286",
+      "num": 286,
+      "title": "Chapter 286",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-287",
+      "num": 287,
+      "title": "Chapter 287",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-288",
+      "num": 288,
+      "title": "Chapter 288",
+      "pages": 16
+    },
+    {
+      "slug": "chuong-289",
+      "num": 289,
+      "title": "Chapter 289",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-290",
+      "num": 290,
+      "title": "Chapter 290",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-291",
+      "num": 291,
+      "title": "Chapter 291",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-292",
+      "num": 292,
+      "title": "Chapter 292",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-293",
+      "num": 293,
+      "title": "Chapter 293",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-294",
+      "num": 294,
+      "title": "Chapter 294",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-295",
+      "num": 295,
+      "title": "Chapter 295",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-296",
+      "num": 296,
+      "title": "Chapter 296",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-297",
+      "num": 297,
+      "title": "Chapter 297",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-298",
+      "num": 298,
+      "title": "Chapter 298",
+      "pages": 18
+    },
+    {
+      "slug": "chuong-299",
+      "num": 299,
+      "title": "Chapter 299",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-300",
+      "num": 300,
+      "title": "Chapter 300",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-301",
+      "num": 301,
+      "title": "Chapter 301",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-302",
+      "num": 302,
+      "title": "Chapter 302",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-303",
+      "num": 303,
+      "title": "Chapter 303",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-304",
+      "num": 304,
+      "title": "Chapter 304",
+      "pages": 89
+    },
+    {
+      "slug": "chuong-305",
+      "num": 305,
+      "title": "Chapter 305",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-306",
+      "num": 306,
+      "title": "Chapter 306",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-307",
+      "num": 307,
+      "title": "Chapter 307",
+      "pages": 18
+    },
+    {
+      "slug": "chuong-308",
+      "num": 308,
+      "title": "Chapter 308",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-309",
+      "num": 309,
+      "title": "Chapter 309",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-310",
+      "num": 310,
+      "title": "Chapter 310",
+      "pages": 17
+    },
+    {
+      "slug": "chuong-311",
+      "num": 311,
+      "title": "Chapter 311",
+      "pages": 18
+    },
+    {
+      "slug": "chuong-312",
+      "num": 312,
+      "title": "Chapter 312",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-313",
+      "num": 313,
+      "title": "Chapter 313",
+      "pages": 18
+    },
+    {
+      "slug": "chuong-314",
+      "num": 314,
+      "title": "Chapter 314",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-315",
+      "num": 315,
+      "title": "Chapter 315",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-316",
+      "num": 316,
+      "title": "Chapter 316",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-317",
+      "num": 317,
+      "title": "Chapter 317",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-318",
+      "num": 318,
+      "title": "Chapter 318",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-319",
+      "num": 319,
+      "title": "Chapter 319",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-320",
+      "num": 320,
+      "title": "Chapter 320",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-321",
+      "num": 321,
+      "title": "Chapter 321",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-322",
+      "num": 322,
+      "title": "Chapter 322",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-323",
+      "num": 323,
+      "title": "Chapter 323",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-324",
+      "num": 324,
+      "title": "Chapter 324",
+      "pages": 18
+    },
+    {
+      "slug": "chuong-325",
+      "num": 325,
+      "title": "Chapter 325",
+      "pages": 17
+    },
+    {
+      "slug": "chuong-326",
+      "num": 326,
+      "title": "Chapter 326",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-327",
+      "num": 327,
+      "title": "Chapter 327",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-327.1",
+      "num": 327.1,
+      "title": "Chapter 327.1",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-327.2",
+      "num": 327.2,
+      "title": "Chapter 327.2",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-327.3",
+      "num": 327.3,
+      "title": "Chapter 327.3",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-327.4",
+      "num": 327.4,
+      "title": "Chapter 327.4",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-327.5",
+      "num": 327.5,
+      "title": "Chapter 327.5",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-327.6",
+      "num": 327.6,
+      "title": "Chapter 327.6",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-328",
+      "num": 328,
+      "title": "Chapter 328",
+      "pages": 30
+    },
+    {
+      "slug": "chuong-329",
+      "num": 329,
+      "title": "Chapter 329",
+      "pages": 29
+    },
+    {
+      "slug": "chuong-330",
+      "num": 330,
+      "title": "Chapter 330",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-331",
+      "num": 331,
+      "title": "Chapter 331",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-332",
+      "num": 332,
+      "title": "Chapter 332",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-333",
+      "num": 333,
+      "title": "Chapter 333",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-334",
+      "num": 334,
+      "title": "Chapter 334",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-335",
+      "num": 335,
+      "title": "Chapter 335",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-336",
+      "num": 336,
+      "title": "Chapter 336",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-337",
+      "num": 337,
+      "title": "Chapter 337",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-338",
+      "num": 338,
+      "title": "Chapter 338",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-339",
+      "num": 339,
+      "title": "Chapter 339",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-340",
+      "num": 340,
+      "title": "Chapter 340",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-341",
+      "num": 341,
+      "title": "Chapter 341",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-342",
+      "num": 342,
+      "title": "Chapter 342",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-343",
+      "num": 343,
+      "title": "Chapter 343",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-344",
+      "num": 344,
+      "title": "Chapter 344",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-345",
+      "num": 345,
+      "title": "Chapter 345",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-346",
+      "num": 346,
+      "title": "Chapter 346",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-347",
+      "num": 347,
+      "title": "Chapter 347",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-348",
+      "num": 348,
+      "title": "Chapter 348",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-349",
+      "num": 349,
+      "title": "Chapter 349",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-350",
+      "num": 350,
+      "title": "Chapter 350",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-351",
+      "num": 351,
+      "title": "Chapter 351",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-352",
+      "num": 352,
+      "title": "Chapter 352",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-353",
+      "num": 353,
+      "title": "Chapter 353",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-354",
+      "num": 354,
+      "title": "Chapter 354",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-355",
+      "num": 355,
+      "title": "Chapter 355",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-356",
+      "num": 356,
+      "title": "Chapter 356",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-357",
+      "num": 357,
+      "title": "Chapter 357",
+      "pages": 17
+    },
+    {
+      "slug": "chuong-358",
+      "num": 358,
+      "title": "Chapter 358",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-359",
+      "num": 359,
+      "title": "Chapter 359",
+      "pages": 26
+    },
+    {
+      "slug": "chuong-360",
+      "num": 360,
+      "title": "Chapter 360",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-361",
+      "num": 361,
+      "title": "Chapter 361",
+      "pages": 20
+    },
+    {
+      "slug": "chuong-362",
+      "num": 362,
+      "title": "Chapter 362",
+      "pages": 17
+    },
+    {
+      "slug": "chuong-363",
+      "num": 363,
+      "title": "Chapter 363",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-364",
+      "num": 364,
+      "title": "Chapter 364",
+      "pages": 31
+    },
+    {
+      "slug": "chuong-365",
+      "num": 365,
+      "title": "Chapter 365",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-366",
+      "num": 366,
+      "title": "Chapter 366",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-367",
+      "num": 367,
+      "title": "Chapter 367",
+      "pages": 21
+    },
+    {
+      "slug": "chuong-368",
+      "num": 368,
+      "title": "Chapter 368: Những kẻ ăn mòn",
+      "pages": 23
+    },
+    {
+      "slug": "chuong-369",
+      "num": 369,
+      "title": "Chapter 369: Cung đảo chóng tàn",
+      "pages": 17
+    },
+    {
+      "slug": "chuong-370",
+      "num": 370,
+      "title": "Chapter 370: Những kẻ chạy nạn từ biển Tây",
+      "pages": 22
+    },
+    {
+      "slug": "chuong-371",
+      "num": 371,
+      "title": "Chapter 371: Ngọn đèn tàn trong đêm tối chật hẹp",
+      "pages": 19
+    },
+    {
+      "slug": "chuong-372",
+      "num": 372,
+      "title": "Chapter 372: Quạ son ngủ thiếp trong lồng",
+      "pages": 25
+    },
+    {
+      "slug": "chuong-373",
+      "num": 373,
+      "title": "Chapter 373",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-374",
+      "num": 374,
+      "title": "Chapter 374",
+      "pages": 24
+    },
+    {
+      "slug": "chuong-375",
+      "num": 375,
+      "title": "Chapter 375",
+      "pages": 26
+    }
+  ],
+  "updatedAt": "2026-11-07T10:13:59.470Z"
+}

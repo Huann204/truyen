@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-assets": "node generate-assets.js",
+    "crawl-manga": "node scripts/crawl-manga.mjs"
   },
   "dependencies": {
     "next": "16.4.5",

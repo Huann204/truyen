@@ -20,8 +20,10 @@ export default async function LibraryStoryPage({ params }: Props) {
   const newestFirst = [...story.chapters].sort((a, b) => b.num - a.num);
   const first = story.chapters[0]?.slug;
   const last = newestFirst[0]?.slug;
-  const cover = placeholderCover(story.title);
-  const words = story.chapters.reduce((n, c) => n + (c.words ?? 0), 0);
+  const cover = story.cover || placeholderCover(story.title);
+  const isManga = story.type === "manga";
+  const words = !isManga ? story.chapters.reduce((n, c) => n + (c.words ?? 0), 0) : 0;
+  const totalPages = isManga ? story.chapters.reduce((n, c) => n + (c.pages ?? 0), 0) : 0;
 
   return (
     <div className="space-y-6">
@@ -32,14 +34,25 @@ export default async function LibraryStoryPage({ params }: Props) {
         </div>
         <div className="min-w-0 flex-1">
           <h1 className="text-center text-xl font-bold sm:text-left sm:text-2xl">{story.title}</h1>
+          {story.author && <p className="mt-1 text-center text-sm text-muted sm:text-left">Tác giả: <span className="font-medium text-foreground">{story.author}</span></p>}
           <dl className="mt-4 grid grid-cols-1 gap-x-6 gap-y-3 text-sm min-[440px]:grid-cols-2">
             <div><dt className="inline text-muted">Số chương: </dt><dd className="inline font-semibold">{story.chapters.length.toLocaleString("vi-VN")} chương</dd></div>
-            <div><dt className="inline text-muted">Số từ: </dt><dd className="inline font-semibold">~{words.toLocaleString("vi-VN")}</dd></div>
-            <div><dt className="inline text-muted">Loại: </dt><dd className="inline font-semibold">Truyện chữ (tải về máy)</dd></div>
+            {isManga ? (
+              <div><dt className="inline text-muted">Số trang ảnh: </dt><dd className="inline font-semibold">~{totalPages.toLocaleString("vi-VN") || "Nhiều trang"}</dd></div>
+            ) : (
+              <div><dt className="inline text-muted">Số từ: </dt><dd className="inline font-semibold">~{words.toLocaleString("vi-VN")}</dd></div>
+            )}
+            <div><dt className="inline text-muted">Loại: </dt><dd className="inline font-semibold">{isManga ? "Truyện tranh (tải về máy)" : "Truyện chữ (tải về máy)"}</dd></div>
+            {story.status && (
+              <div><dt className="inline text-muted">Tình trạng: </dt><dd className="inline font-semibold">{story.status}</dd></div>
+            )}
             {story.updatedAt && (
               <div><dt className="inline text-muted">Tải lúc: </dt><dd className="inline font-semibold">{new Date(story.updatedAt).toLocaleString("vi-VN")}</dd></div>
             )}
           </dl>
+          {story.description && (
+            <p className="mt-3 line-clamp-3 text-xs text-muted leading-relaxed sm:text-sm">{story.description}</p>
+          )}
           <div className="mt-4">
             <ReadButtons slug={slug} title={story.title} cover={cover} first={first} last={last} base="/thu-vien" />
           </div>

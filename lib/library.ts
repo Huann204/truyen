@@ -5,18 +5,31 @@ import path from "node:path";
 // Thư viện cá nhân: truyện đã tải về máy bằng scripts/crawl-blogspot.mjs, lưu ở data/library/<slug>/
 const ROOT = path.join(process.cwd(), "data", "library");
 
-export type LibChapterMeta = { slug: string; num: number; title: string; words?: number };
+export type LibChapterMeta = { slug: string; num: number; title: string; words?: number; pages?: number };
 export type LibStory = {
   slug: string;
   title: string;
+  cover?: string;
+  author?: string;
+  description?: string;
+  status?: string;
+  genres?: string[];
   source?: string;
-  type: "novel";
+  type: "novel" | "manga";
   chapters: LibChapterMeta[]; // theo thứ tự tăng dần
   updatedAt?: string;
 };
-export type LibChapter = { slug: string; num: number; title: string; paragraphs: string[]; source?: string };
+export type LibChapter = {
+  slug: string;
+  num: number;
+  title: string;
+  mediaType?: "text" | "image";
+  paragraphs?: string[];
+  pages?: { id: number; url: string }[];
+  source?: string;
+};
 
-const safe = (s: string) => /^[a-z0-9][a-z0-9-]*$/i.test(s);
+const safe = (s: string) => /^[a-z0-9][a-z0-9._-]*$/i.test(s) && !s.includes("..");
 
 export async function listLibrary(): Promise<LibStory[]> {
   let dirs: string[] = [];
@@ -34,18 +47,21 @@ export async function listLibrary(): Promise<LibStory[]> {
 }
 
 export async function getLibStory(slug: string): Promise<LibStory | null> {
-  if (!safe(slug)) return null;
+  const s = decodeURIComponent(slug);
+  if (!safe(s)) return null;
   try {
-    return JSON.parse(await readFile(path.join(ROOT, slug, "story.json"), "utf8")) as LibStory;
+    return JSON.parse(await readFile(path.join(ROOT, s, "story.json"), "utf8")) as LibStory;
   } catch {
     return null;
   }
 }
 
 export async function getLibChapter(slug: string, chapter: string): Promise<LibChapter | null> {
-  if (!safe(slug) || !safe(chapter)) return null;
+  const s = decodeURIComponent(slug);
+  const c = decodeURIComponent(chapter);
+  if (!safe(s) || !safe(c)) return null;
   try {
-    return JSON.parse(await readFile(path.join(ROOT, slug, "chapters", `${chapter}.json`), "utf8")) as LibChapter;
+    return JSON.parse(await readFile(path.join(ROOT, s, "chapters", `${c}.json`), "utf8")) as LibChapter;
   } catch {
     return null;
   }
