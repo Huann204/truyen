@@ -69,38 +69,6 @@ export function StorySkeleton() {
   );
 }
 
-export function ReaderSkeleton() {
-  // Khớp bố cục trang đọc thật: tiêu đề, hàng nút chuyển chương (desktop), thanh dưới cố định (mobile)
-  const nav = (
-    <div className="hidden items-center justify-center gap-2 py-3 sm:flex">
-      <div className={`${bar} h-10 w-32`} />
-      <div className={`${bar} h-10 w-48`} />
-      <div className={`${bar} h-10 w-32`} />
-    </div>
-  );
-  return (
-    <div className="pb-16 sm:pb-0">
-      <div className="fixed inset-x-0 bottom-0 z-30 flex items-center gap-2 border-t border-border bg-card/95 px-3 py-2 sm:hidden">
-        <div className={`${bar} h-10 w-12`} />
-        <div className={`${bar} h-10 flex-1`} />
-        <div className={`${bar} h-10 w-12`} />
-        <div className={`${bar} h-10 w-12`} />
-      </div>
-      <div className="mb-3 flex flex-col items-center gap-1">
-        <div className={`${bar} h-7 w-1/2`} />
-        <div className={`${bar} h-5 w-1/3`} />
-      </div>
-      {nav}
-      <div className="mx-auto max-w-3xl space-y-4 rounded-xl border border-border bg-card px-4 py-6 sm:px-10 sm:py-8">
-        {Array.from({ length: 14 }).map((_, i) => (
-          <div key={i} className={`${bar} h-5 ${i % 5 === 4 ? "w-2/3" : "w-full"}`} />
-        ))}
-      </div>
-      {nav}
-    </div>
-  );
-}
-
 export function HomeSkeleton() {
   return (
     <div className="space-y-8 sm:space-y-10">
@@ -142,6 +110,24 @@ export function GenresSkeleton() {
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
         {Array.from({ length: 24 }).map((_, i) => <div key={i} className={`${bar} h-11 rounded-lg`} />)}
       </div>
+    </div>
+  );
+}
+
+// Khung chờ chung cho trang đọc (truyện chữ lẫn truyện tranh): tiêu đề + nút chuyển chương + một khối nội dung
+export function ChapterSkeleton() {
+  return (
+    <div className="pb-16 sm:pb-0">
+      <div className="mb-3 flex flex-col items-center gap-1">
+        <div className={`${bar} h-7 w-1/2`} />
+        <div className={`${bar} h-5 w-1/3`} />
+      </div>
+      <div className="hidden items-center justify-center gap-2 py-3 sm:flex">
+        <div className={`${bar} h-10 w-32`} />
+        <div className={`${bar} h-10 w-48`} />
+        <div className={`${bar} h-10 w-32`} />
+      </div>
+      <div className={`${bar} mx-auto mt-3 aspect-[2/3] w-full max-w-3xl rounded-xl`} />
     </div>
   );
 }

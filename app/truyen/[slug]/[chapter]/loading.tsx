@@ -1,5 +1,5 @@
-import { ReaderSkeleton } from "@/components/Skeletons";
+import { ChapterSkeleton } from "@/components/Skeletons";
 
 export default function Loading() {
-  return <ReaderSkeleton />;
+  return <ChapterSkeleton />;
 }
