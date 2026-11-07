@@ -25,8 +25,8 @@ const menu = [
 export default function BottomNav({ showAdult = false }: { showAdult?: boolean }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);
-  // Ẩn ở trang đọc để không che nội dung
-  if (/^\/truyen\/[^/]+\/[^/]+/.test(path)) return null;
+  // Ẩn ở trang đọc (cả online và thư viện cá nhân) để không che thanh điều khiển chương
+  if (/^\/(truyen|thu-vien)\/[^/]+\/[^/]+/.test(path)) return null;
   const cell = "flex w-full flex-col items-center gap-0.5 py-2 text-[11px]";
   return (
     <>
