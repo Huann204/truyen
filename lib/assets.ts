@@ -2,7 +2,7 @@
 export const ASSET_HOST = "https://api.khotruyen.site";
 export const assetUrl = (u?: string | null) => {
   if (!u) return "";
-  if (u.startsWith("data:") || u.startsWith("http://") || u.startsWith("https://") || u.startsWith("/covers/")) {
+  if (u.startsWith("data:") || u.startsWith("http://") || u.startsWith("https://") || u.startsWith("/covers/") || u.startsWith("/api/")) {
     return u;
   }
   return u.startsWith("/") ? ASSET_HOST + u : u;
