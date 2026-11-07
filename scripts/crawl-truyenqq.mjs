@@ -90,7 +90,7 @@ async function main() {
   }
 
   // Chapter list
-  const chapRegex = new RegExp('<a[^>]+href="([^"]*(?:' + defaultSlug + '|chapter)[^"]*)"[^>]*>([\\s\\S]*?)<\\/a>', 'gi');
+  const chapRegex = /<a[^>]+href="([^"]*\/chapter-[0-9][^"]*)"[^>]*>([\s\S]*?)<\/a>/gi;
   const rawList = [];
   const seenUrls = new Set();
   let m;
@@ -98,25 +98,23 @@ async function main() {
     let chapUrl = m[1];
     if (chapUrl.startsWith('/')) chapUrl = 'https://truyenqq.com.vn' + chapUrl;
     const text = m[2].replace(/<[^>]+>/g, '').trim();
-    if (text !== 'Đọc từ đầu' && text !== 'Đọc mới nhất') {
-      if (!seenUrls.has(chapUrl)) {
-        seenUrls.add(chapUrl);
-        const numMatch = chapUrl.match(/chapter-([0-9]+)(?:-([0-9]+))?/i);
-        let num = 0;
-        let slug = 'chuong-1';
-        if (numMatch) {
-          const mainNum = parseInt(numMatch[1], 10);
-          const subNum = numMatch[2] ? parseInt(numMatch[2], 10) : 0;
-          num = mainNum + subNum / 10;
-          slug = subNum ? `chuong-${mainNum}.${subNum}` : `chuong-${mainNum}`;
-        }
-        rawList.push({
-          url: chapUrl,
-          title: text || `Chapter ${num}`,
-          slug,
-          num,
-        });
-      }
+    if (text === 'Đọc từ đầu' || text === 'Đọc mới nhất') continue;
+
+    const numMatch = chapUrl.match(/chapter-([0-9]+)(?:-([0-9]+))?/i);
+    if (!numMatch) continue;
+
+    if (!seenUrls.has(chapUrl)) {
+      seenUrls.add(chapUrl);
+      const mainNum = parseInt(numMatch[1], 10);
+      const subNum = numMatch[2] ? parseInt(numMatch[2], 10) : 0;
+      const num = subNum ? mainNum + subNum / 10 : mainNum;
+      const slug = subNum ? `chuong-${mainNum}.${subNum}` : `chuong-${mainNum}`;
+      rawList.push({
+        url: chapUrl,
+        title: text || `Chapter ${num}`,
+        slug,
+        num,
+      });
     }
   }
 
