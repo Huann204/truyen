@@ -11,6 +11,17 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const OUT = path.join(process.cwd(), 'data', 'library', userSlug);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const STORY_METADATA = {
+  'ty-quay': {
+    author: 'Đào Hải',
+    description: 'Bộ truyện tranh hài hước gắn liền với tuổi thơ của tác giả Đào Hải.',
+  },
+  'than-dong-dat-viet': {
+    author: 'Lê Linh',
+    description: 'Thần Đồng Đất Việt là bộ truyện tranh thiếu nhi Việt Nam do họa sĩ Lê Linh sáng tác, xoay quanh Trạng Tí và nhóm bạn Sửu Ẹo, Dần Béo, Cả Mẹo trong bối cảnh làng Phan Thị thời phong kiến.',
+  },
+};
+
 async function fetchWithRetry(url, tries = 3) {
   for (let i = 1; i <= tries; i++) {
     try {
@@ -128,9 +139,17 @@ async function main() {
     console.log(`  - [${t.tid}] ${t.title} -> ${t.chapterSlug}`);
   }
 
-  // Description
+  // Metadata: không dùng nội dung bài đầu làm mô tả vì thường chỉ chứa ảnh/quảng cáo.
+  const knownMetadata = STORY_METADATA[userSlug];
+  const metadata = knownMetadata ?? {
+    author: 'Đang cập nhật',
+    description: `Bộ truyện tranh ${userTitle}.`,
+  };
   const descMatch = initialHtml.match(/<div id="post_message_\d+">([\s\S]*?)<div/i);
-  let description = descMatch ? descMatch[1].replace(/<[^>]+>/g, '').trim() : 'Bộ truyện tranh hài hước gắn liền với tuổi thơ của tác giả Đào Hải.';
+  const extractedDescription = descMatch?.[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+  const description = knownMetadata?.description ?? (
+    extractedDescription && extractedDescription.length >= 40 ? extractedDescription : metadata.description
+  );
 
   // Crawl each chapter
   const chaptersMeta = [];
@@ -201,10 +220,10 @@ async function main() {
     slug: userSlug,
     title: userTitle,
     cover: `/covers/${userSlug}.webp`,
-    author: 'Đào Hải',
+    author: metadata.author,
     status: 'Hoàn thành',
     genres: ['Hài Hước', 'Học Đường', 'Việt Nam', 'Manga'],
-    description: description || 'Bộ truyện tranh hài hước gắn liền với tuổi thơ của tác giả Đào Hải.',
+    description,
     type: 'manga',
     source: targetUrl,
     chapters: chaptersMeta,
