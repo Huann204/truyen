@@ -1,0 +1,318 @@
+{
+  "slug": "cau-be-but-chi",
+  "title": "Cậu bé bút chì",
+  "cover": "/covers/cau-be-but-chi.webp",
+  "author": "Đang cập nhật",
+  "status": "Hoàn thành",
+  "genres": [
+    "Hài Hước",
+    "Học Đường",
+    "Việt Nam",
+    "Manga"
+  ],
+  "description": "là bộ truyện tranh nổi tiếng của tác giả Yoshito Usui, xoay quanh cuộc sống hằng ngày của chú bé 5 tuổi Shinnosuke (Shin) cùng gia đình và bạn bè tại thành phố Kasukabe, Nhật Bản [1, 2]. Với tính cách nghịch ngợm, già dặn trước tuổi và những phát ngôn &quot;khó đỡ&quot;, Shin thường xuyên gây ra những tình huống dở khóc dở cười cho bố mẹ (ông Hiroshi và bà Misae), cô em gái Himawari cùng chú chó Bạch Tuyết [2, 3]. Dù mang phong cách hài hước, đôi khi có phần tinh quái và châm biếm, tác phẩm vẫn khéo léo lồng ghép những bài học ý nghĩa về tình cảm gia đình, tình bạn chân thành và cái nhìn hồn nhiên của trẻ thơ về thế giới người lớn",
+  "type": "manga",
+  "source": "https://tuthienbao.com/forum/showthread.php?t=101868",
+  "chapters": [
+    {
+      "slug": "tap-1",
+      "num": 1,
+      "title": "Tập 1",
+      "pages": 124
+    },
+    {
+      "slug": "tap-2",
+      "num": 2,
+      "title": "Tập 2",
+      "pages": 123
+    },
+    {
+      "slug": "tap-3",
+      "num": 3,
+      "title": "Tập 3",
+      "pages": 120
+    },
+    {
+      "slug": "tap-4",
+      "num": 4,
+      "title": "Tập 4",
+      "pages": 122
+    },
+    {
+      "slug": "tap-5",
+      "num": 5,
+      "title": "Tập 5",
+      "pages": 120
+    },
+    {
+      "slug": "tap-6",
+      "num": 6,
+      "title": "Tập 6",
+      "pages": 123
+    },
+    {
+      "slug": "tap-7",
+      "num": 7,
+      "title": "Tập 7",
+      "pages": 123
+    },
+    {
+      "slug": "tap-8",
+      "num": 8,
+      "title": "Tập 8",
+      "pages": 122
+    },
+    {
+      "slug": "tap-9",
+      "num": 9,
+      "title": "Tập 9",
+      "pages": 123
+    },
+    {
+      "slug": "tap-10",
+      "num": 10,
+      "title": "Tập 10",
+      "pages": 125
+    },
+    {
+      "slug": "tap-11",
+      "num": 11,
+      "title": "Tập 11",
+      "pages": 119
+    },
+    {
+      "slug": "tap-12",
+      "num": 12,
+      "title": "Tập 12",
+      "pages": 121
+    },
+    {
+      "slug": "tap-13",
+      "num": 13,
+      "title": "Tập 13",
+      "pages": 121
+    },
+    {
+      "slug": "tap-14",
+      "num": 14,
+      "title": "Tập 14",
+      "pages": 121
+    },
+    {
+      "slug": "tap-15",
+      "num": 15,
+      "title": "Tập 15",
+      "pages": 121
+    },
+    {
+      "slug": "tap-16",
+      "num": 16,
+      "title": "Tập 16",
+      "pages": 121
+    },
+    {
+      "slug": "tap-17",
+      "num": 17,
+      "title": "Tập 17",
+      "pages": 119
+    },
+    {
+      "slug": "tap-18",
+      "num": 18,
+      "title": "Tập 18",
+      "pages": 121
+    },
+    {
+      "slug": "tap-19",
+      "num": 19,
+      "title": "Tập 19",
+      "pages": 117
+    },
+    {
+      "slug": "tap-20",
+      "num": 20,
+      "title": "Tập 20",
+      "pages": 121
+    },
+    {
+      "slug": "tap-21",
+      "num": 21,
+      "title": "Tập 21",
+      "pages": 123
+    },
+    {
+      "slug": "tap-22",
+      "num": 22,
+      "title": "Tập 22",
+      "pages": 123
+    },
+    {
+      "slug": "tap-23",
+      "num": 23,
+      "title": "Tập 23",
+      "pages": 123
+    },
+    {
+      "slug": "tap-24",
+      "num": 24,
+      "title": "Tập 24",
+      "pages": 123
+    },
+    {
+      "slug": "tap-25",
+      "num": 25,
+      "title": "Tập 25",
+      "pages": 117
+    },
+    {
+      "slug": "tap-26",
+      "num": 26,
+      "title": "Tập 26",
+      "pages": 121
+    },
+    {
+      "slug": "tap-27",
+      "num": 27,
+      "title": "Tập 27",
+      "pages": 121
+    },
+    {
+      "slug": "tap-28",
+      "num": 28,
+      "title": "Tập 28",
+      "pages": 122
+    },
+    {
+      "slug": "tap-29",
+      "num": 29,
+      "title": "Tập 29",
+      "pages": 120
+    },
+    {
+      "slug": "tap-30",
+      "num": 30,
+      "title": "Tập 30",
+      "pages": 125
+    },
+    {
+      "slug": "tap-31",
+      "num": 31,
+      "title": "Tập 31",
+      "pages": 123
+    },
+    {
+      "slug": "tap-32",
+      "num": 32,
+      "title": "Tập 32",
+      "pages": 124
+    },
+    {
+      "slug": "tap-33",
+      "num": 33,
+      "title": "Tập 33",
+      "pages": 122
+    },
+    {
+      "slug": "tap-34",
+      "num": 34,
+      "title": "Tập 34",
+      "pages": 122
+    },
+    {
+      "slug": "tap-35",
+      "num": 35,
+      "title": "Tập 35",
+      "pages": 123
+    },
+    {
+      "slug": "tap-36",
+      "num": 36,
+      "title": "Tập 36",
+      "pages": 126
+    },
+    {
+      "slug": "tap-37",
+      "num": 37,
+      "title": "Tập 37",
+      "pages": 125
+    },
+    {
+      "slug": "tap-38",
+      "num": 38,
+      "title": "Tập 38",
+      "pages": 112
+    },
+    {
+      "slug": "tap-39",
+      "num": 39,
+      "title": "Tập 39",
+      "pages": 125
+    },
+    {
+      "slug": "tap-40",
+      "num": 40,
+      "title": "Tập 40",
+      "pages": 121
+    },
+    {
+      "slug": "tap-41",
+      "num": 41,
+      "title": "Tập 41",
+      "pages": 126
+    },
+    {
+      "slug": "tap-42",
+      "num": 42,
+      "title": "Tập 42",
+      "pages": 126
+    },
+    {
+      "slug": "tap-43",
+      "num": 43,
+      "title": "Tập 43",
+      "pages": 111
+    },
+    {
+      "slug": "tap-44",
+      "num": 44,
+      "title": "Tập 44",
+      "pages": 116
+    },
+    {
+      "slug": "tap-45",
+      "num": 45,
+      "title": "Tập 45",
+      "pages": 119
+    },
+    {
+      "slug": "tap-46",
+      "num": 46,
+      "title": "Tập 46",
+      "pages": 116
+    },
+    {
+      "slug": "tap-47",
+      "num": 47,
+      "title": "Tập 47",
+      "pages": 97
+    },
+    {
+      "slug": "tap-48",
+      "num": 48,
+      "title": "Tập 48",
+      "pages": 95
+    },
+    {
+      "slug": "tap-49",
+      "num": 49,
+      "title": "Tập 49",
+      "pages": 109
+    },
+    {
+      "slug": "tap-50",
+      "num": 50,
+      "title": "Tập 50",
+      "pages": 100
+    }
+  ]
+}
