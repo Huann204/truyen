@@ -1,0 +1,1272 @@
+{
+  "slug": "than-dong-dat-viet",
+  "title": "Thần Đồng Đất Việt",
+  "cover": "/covers/than-dong-dat-viet.webp",
+  "author": "Đào Hải",
+  "status": "Hoàn thành",
+  "genres": [
+    "Hài Hước",
+    "Học Đường",
+    "Việt Nam",
+    "Manga"
+  ],
+  "description": "Bộ truyện tranh hài hước gắn liền với tuổi thơ của tác giả Đào Hải.",
+  "type": "manga",
+  "source": "https://tuthienbao.com/forum/showthread.php?t=66760",
+  "chapters": [
+    {
+      "slug": "tap-1",
+      "num": 1,
+      "title": "Tập 1",
+      "pages": 94
+    },
+    {
+      "slug": "tap-2",
+      "num": 2,
+      "title": "Tập 2",
+      "pages": 98
+    },
+    {
+      "slug": "tap-3",
+      "num": 3,
+      "title": "Tập 3",
+      "pages": 98
+    },
+    {
+      "slug": "tap-4",
+      "num": 4,
+      "title": "Tập 4",
+      "pages": 98
+    },
+    {
+      "slug": "tap-5",
+      "num": 5,
+      "title": "Tập 5",
+      "pages": 97
+    },
+    {
+      "slug": "tap-6",
+      "num": 6,
+      "title": "Tập 6",
+      "pages": 98
+    },
+    {
+      "slug": "tap-7",
+      "num": 7,
+      "title": "Tập 7",
+      "pages": 97
+    },
+    {
+      "slug": "tap-8",
+      "num": 8,
+      "title": "Tập 8",
+      "pages": 98
+    },
+    {
+      "slug": "tap-9",
+      "num": 9,
+      "title": "Tập 9",
+      "pages": 97
+    },
+    {
+      "slug": "tap-10",
+      "num": 10,
+      "title": "Tập 10",
+      "pages": 98
+    },
+    {
+      "slug": "tap-11",
+      "num": 11,
+      "title": "Tập 11",
+      "pages": 96
+    },
+    {
+      "slug": "tap-12",
+      "num": 12,
+      "title": "Tập 12",
+      "pages": 97
+    },
+    {
+      "slug": "tap-13",
+      "num": 13,
+      "title": "Tập 13",
+      "pages": 98
+    },
+    {
+      "slug": "tap-14",
+      "num": 14,
+      "title": "Tập 14",
+      "pages": 98
+    },
+    {
+      "slug": "tap-15",
+      "num": 15,
+      "title": "Tập 15",
+      "pages": 98
+    },
+    {
+      "slug": "tap-16",
+      "num": 16,
+      "title": "Tập 16",
+      "pages": 98
+    },
+    {
+      "slug": "tap-17",
+      "num": 17,
+      "title": "Tập 17",
+      "pages": 98
+    },
+    {
+      "slug": "tap-18",
+      "num": 18,
+      "title": "Tập 18",
+      "pages": 97
+    },
+    {
+      "slug": "tap-19",
+      "num": 19,
+      "title": "Tập 19",
+      "pages": 99
+    },
+    {
+      "slug": "tap-20",
+      "num": 20,
+      "title": "Tập 20",
+      "pages": 98
+    },
+    {
+      "slug": "tap-21",
+      "num": 21,
+      "title": "Tập 21",
+      "pages": 97
+    },
+    {
+      "slug": "tap-22",
+      "num": 22,
+      "title": "Tập 22",
+      "pages": 97
+    },
+    {
+      "slug": "tap-23",
+      "num": 23,
+      "title": "Tập 23",
+      "pages": 98
+    },
+    {
+      "slug": "tap-24",
+      "num": 24,
+      "title": "Tập 24",
+      "pages": 98
+    },
+    {
+      "slug": "tap-25",
+      "num": 25,
+      "title": "Tập 25",
+      "pages": 161
+    },
+    {
+      "slug": "tap-26",
+      "num": 26,
+      "title": "Tập 26",
+      "pages": 130
+    },
+    {
+      "slug": "tap-27",
+      "num": 27,
+      "title": "Tập 27",
+      "pages": 130
+    },
+    {
+      "slug": "tap-28",
+      "num": 28,
+      "title": "Tập 28",
+      "pages": 129
+    },
+    {
+      "slug": "tap-29",
+      "num": 29,
+      "title": "Tập 29",
+      "pages": 130
+    },
+    {
+      "slug": "tap-30",
+      "num": 30,
+      "title": "Tập 30",
+      "pages": 130
+    },
+    {
+      "slug": "tap-31",
+      "num": 31,
+      "title": "Tập 31",
+      "pages": 129
+    },
+    {
+      "slug": "tap-32",
+      "num": 32,
+      "title": "Tập 32",
+      "pages": 130
+    },
+    {
+      "slug": "tap-33",
+      "num": 33,
+      "title": "Tập 33",
+      "pages": 130
+    },
+    {
+      "slug": "tap-34",
+      "num": 34,
+      "title": "Tập 34",
+      "pages": 130
+    },
+    {
+      "slug": "tap-35",
+      "num": 35,
+      "title": "Tập 35",
+      "pages": 130
+    },
+    {
+      "slug": "tap-36",
+      "num": 36,
+      "title": "Tập 36",
+      "pages": 130
+    },
+    {
+      "slug": "tap-37",
+      "num": 37,
+      "title": "Tập 37",
+      "pages": 131
+    },
+    {
+      "slug": "tap-38",
+      "num": 38,
+      "title": "Tập 38",
+      "pages": 131
+    },
+    {
+      "slug": "tap-39",
+      "num": 39,
+      "title": "Tập 39",
+      "pages": 130
+    },
+    {
+      "slug": "tap-40",
+      "num": 40,
+      "title": "Tập 40",
+      "pages": 130
+    },
+    {
+      "slug": "tap-41",
+      "num": 41,
+      "title": "Tập 41",
+      "pages": 130
+    },
+    {
+      "slug": "tap-42",
+      "num": 42,
+      "title": "Tập 42",
+      "pages": 129
+    },
+    {
+      "slug": "tap-43",
+      "num": 43,
+      "title": "Tập 43",
+      "pages": 129
+    },
+    {
+      "slug": "tap-44",
+      "num": 44,
+      "title": "Tập 44",
+      "pages": 138
+    },
+    {
+      "slug": "tap-45",
+      "num": 45,
+      "title": "Tập 45",
+      "pages": 137
+    },
+    {
+      "slug": "tap-46",
+      "num": 46,
+      "title": "Tập 46",
+      "pages": 136
+    },
+    {
+      "slug": "tap-47",
+      "num": 47,
+      "title": "Tập 47",
+      "pages": 138
+    },
+    {
+      "slug": "tap-48",
+      "num": 48,
+      "title": "Tập 48",
+      "pages": 137
+    },
+    {
+      "slug": "tap-49",
+      "num": 49,
+      "title": "Tập 49",
+      "pages": 162
+    },
+    {
+      "slug": "tap-50",
+      "num": 50,
+      "title": "Tập 50",
+      "pages": 130
+    },
+    {
+      "slug": "tap-51",
+      "num": 51,
+      "title": "Tập 51",
+      "pages": 130
+    },
+    {
+      "slug": "tap-52",
+      "num": 52,
+      "title": "Tập 52",
+      "pages": 130
+    },
+    {
+      "slug": "tap-53",
+      "num": 53,
+      "title": "Tập 53",
+      "pages": 128
+    },
+    {
+      "slug": "tap-54",
+      "num": 54,
+      "title": "Tập 54",
+      "pages": 130
+    },
+    {
+      "slug": "tap-55",
+      "num": 55,
+      "title": "Tập 55",
+      "pages": 130
+    },
+    {
+      "slug": "tap-56",
+      "num": 56,
+      "title": "Tập 56",
+      "pages": 129
+    },
+    {
+      "slug": "tap-57",
+      "num": 57,
+      "title": "Tập 57",
+      "pages": 130
+    },
+    {
+      "slug": "tap-58",
+      "num": 58,
+      "title": "Tập 58",
+      "pages": 130
+    },
+    {
+      "slug": "tap-59",
+      "num": 59,
+      "title": "Tập 59",
+      "pages": 129
+    },
+    {
+      "slug": "tap-60",
+      "num": 60,
+      "title": "Tập 60",
+      "pages": 129
+    },
+    {
+      "slug": "tap-61",
+      "num": 61,
+      "title": "Tập 61",
+      "pages": 129
+    },
+    {
+      "slug": "tap-62",
+      "num": 62,
+      "title": "Tập 62",
+      "pages": 129
+    },
+    {
+      "slug": "tap-63",
+      "num": 63,
+      "title": "Tập 63",
+      "pages": 130
+    },
+    {
+      "slug": "tap-64",
+      "num": 64,
+      "title": "Tập 64",
+      "pages": 129
+    },
+    {
+      "slug": "tap-65",
+      "num": 65,
+      "title": "Tập 65",
+      "pages": 130
+    },
+    {
+      "slug": "tap-66",
+      "num": 66,
+      "title": "Tập 66",
+      "pages": 130
+    },
+    {
+      "slug": "tap-67",
+      "num": 67,
+      "title": "Tập 67",
+      "pages": 130
+    },
+    {
+      "slug": "tap-68",
+      "num": 68,
+      "title": "Tập 68",
+      "pages": 130
+    },
+    {
+      "slug": "tap-69",
+      "num": 69,
+      "title": "Tập 69",
+      "pages": 130
+    },
+    {
+      "slug": "tap-70",
+      "num": 70,
+      "title": "Tập 70",
+      "pages": 128
+    },
+    {
+      "slug": "tap-71",
+      "num": 71,
+      "title": "Tập 71",
+      "pages": 128
+    },
+    {
+      "slug": "tap-72",
+      "num": 72,
+      "title": "Tập 72",
+      "pages": 129
+    },
+    {
+      "slug": "tap-73",
+      "num": 73,
+      "title": "Tập 73",
+      "pages": 129
+    },
+    {
+      "slug": "tap-74",
+      "num": 74,
+      "title": "Tập 74",
+      "pages": 129
+    },
+    {
+      "slug": "tap-75",
+      "num": 75,
+      "title": "Tập 75",
+      "pages": 128
+    },
+    {
+      "slug": "tap-76",
+      "num": 76,
+      "title": "Tập 76",
+      "pages": 128
+    },
+    {
+      "slug": "tap-77",
+      "num": 77,
+      "title": "Tập 77",
+      "pages": 113
+    },
+    {
+      "slug": "tap-78",
+      "num": 78,
+      "title": "Tập 78",
+      "pages": 111
+    },
+    {
+      "slug": "tap-79",
+      "num": 79,
+      "title": "Tập 79",
+      "pages": 109
+    },
+    {
+      "slug": "tap-80",
+      "num": 80,
+      "title": "Tập 80",
+      "pages": 115
+    },
+    {
+      "slug": "tap-81",
+      "num": 81,
+      "title": "Tập 81",
+      "pages": 132
+    },
+    {
+      "slug": "tap-82",
+      "num": 82,
+      "title": "Tập 82",
+      "pages": 132
+    },
+    {
+      "slug": "tap-83",
+      "num": 83,
+      "title": "Tập 83",
+      "pages": 132
+    },
+    {
+      "slug": "tap-84",
+      "num": 84,
+      "title": "Tập 84",
+      "pages": 131
+    },
+    {
+      "slug": "tap-85",
+      "num": 85,
+      "title": "Tập 85",
+      "pages": 138
+    },
+    {
+      "slug": "tap-86",
+      "num": 86,
+      "title": "Tập 86",
+      "pages": 139
+    },
+    {
+      "slug": "tap-87",
+      "num": 87,
+      "title": "Tập 87",
+      "pages": 139
+    },
+    {
+      "slug": "tap-88",
+      "num": 88,
+      "title": "Tập 88",
+      "pages": 162
+    },
+    {
+      "slug": "tap-89",
+      "num": 89,
+      "title": "Tập 89",
+      "pages": 138
+    },
+    {
+      "slug": "tap-90",
+      "num": 90,
+      "title": "Tập 90",
+      "pages": 139
+    },
+    {
+      "slug": "tap-91",
+      "num": 91,
+      "title": "Tập 91",
+      "pages": 131
+    },
+    {
+      "slug": "tap-92",
+      "num": 92,
+      "title": "Tập 92",
+      "pages": 130
+    },
+    {
+      "slug": "tap-93",
+      "num": 93,
+      "title": "Tập 93",
+      "pages": 130
+    },
+    {
+      "slug": "tap-94",
+      "num": 94,
+      "title": "Tập 94",
+      "pages": 129
+    },
+    {
+      "slug": "tap-95",
+      "num": 95,
+      "title": "Tập 95",
+      "pages": 132
+    },
+    {
+      "slug": "tap-96",
+      "num": 96,
+      "title": "Tập 96",
+      "pages": 130
+    },
+    {
+      "slug": "tap-97",
+      "num": 97,
+      "title": "Tập 97",
+      "pages": 129
+    },
+    {
+      "slug": "tap-98",
+      "num": 98,
+      "title": "Tập 98",
+      "pages": 130
+    },
+    {
+      "slug": "tap-99",
+      "num": 99,
+      "title": "Tập 99",
+      "pages": 130
+    },
+    {
+      "slug": "tap-100",
+      "num": 100,
+      "title": "Tập 100",
+      "pages": 159
+    },
+    {
+      "slug": "tap-101",
+      "num": 101,
+      "title": "Tập 101",
+      "pages": 130
+    },
+    {
+      "slug": "tap-102",
+      "num": 102,
+      "title": "Tập 102",
+      "pages": 129
+    },
+    {
+      "slug": "tap-103",
+      "num": 103,
+      "title": "Tập 103",
+      "pages": 129
+    },
+    {
+      "slug": "tap-104",
+      "num": 104,
+      "title": "Tập 104",
+      "pages": 244
+    },
+    {
+      "slug": "tap-106",
+      "num": 106,
+      "title": "Tập 106",
+      "pages": 111
+    },
+    {
+      "slug": "tap-107",
+      "num": 107,
+      "title": "Tập 107",
+      "pages": 114
+    },
+    {
+      "slug": "tap-108",
+      "num": 108,
+      "title": "Tập 108",
+      "pages": 112
+    },
+    {
+      "slug": "tap-109",
+      "num": 109,
+      "title": "Tập 109",
+      "pages": 112
+    },
+    {
+      "slug": "tap-110",
+      "num": 110,
+      "title": "Tập 110",
+      "pages": 114
+    },
+    {
+      "slug": "tap-111",
+      "num": 111,
+      "title": "Tập 111",
+      "pages": 81
+    },
+    {
+      "slug": "tap-112",
+      "num": 112,
+      "title": "Tập 112",
+      "pages": 81
+    },
+    {
+      "slug": "tap-113",
+      "num": 113,
+      "title": "Tập 113",
+      "pages": 81
+    },
+    {
+      "slug": "tap-114",
+      "num": 114,
+      "title": "Tập 114",
+      "pages": 75
+    },
+    {
+      "slug": "tap-115",
+      "num": 115,
+      "title": "Tập 115",
+      "pages": 75
+    },
+    {
+      "slug": "tap-116",
+      "num": 116,
+      "title": "Tập 116",
+      "pages": 74
+    },
+    {
+      "slug": "tap-117",
+      "num": 117,
+      "title": "Tập 117",
+      "pages": 74
+    },
+    {
+      "slug": "tap-118",
+      "num": 118,
+      "title": "Tập 118",
+      "pages": 75
+    },
+    {
+      "slug": "tap-119",
+      "num": 119,
+      "title": "Tập 119",
+      "pages": 75
+    },
+    {
+      "slug": "tap-120",
+      "num": 120,
+      "title": "Tập 120",
+      "pages": 75
+    },
+    {
+      "slug": "tap-121",
+      "num": 121,
+      "title": "Tập 121",
+      "pages": 86
+    },
+    {
+      "slug": "tap-122",
+      "num": 122,
+      "title": "Tập 122",
+      "pages": 86
+    },
+    {
+      "slug": "tap-123",
+      "num": 123,
+      "title": "Tập 123",
+      "pages": 86
+    },
+    {
+      "slug": "tap-124",
+      "num": 124,
+      "title": "Tập 124",
+      "pages": 86
+    },
+    {
+      "slug": "tap-125",
+      "num": 125,
+      "title": "Tập 125",
+      "pages": 86
+    },
+    {
+      "slug": "tap-126",
+      "num": 126,
+      "title": "Tập 126",
+      "pages": 86
+    },
+    {
+      "slug": "tap-127",
+      "num": 127,
+      "title": "Tập 127",
+      "pages": 86
+    },
+    {
+      "slug": "tap-128",
+      "num": 128,
+      "title": "Tập 128",
+      "pages": 86
+    },
+    {
+      "slug": "tap-129",
+      "num": 129,
+      "title": "Tập 129",
+      "pages": 85
+    },
+    {
+      "slug": "tap-130",
+      "num": 130,
+      "title": "Tập 130",
+      "pages": 86
+    },
+    {
+      "slug": "tap-131",
+      "num": 131,
+      "title": "Tập 131",
+      "pages": 82
+    },
+    {
+      "slug": "tap-132",
+      "num": 132,
+      "title": "Tập 132",
+      "pages": 86
+    },
+    {
+      "slug": "tap-133",
+      "num": 133,
+      "title": "Tập 133",
+      "pages": 86
+    },
+    {
+      "slug": "tap-134",
+      "num": 134,
+      "title": "Tập 134",
+      "pages": 86
+    },
+    {
+      "slug": "tap-135",
+      "num": 135,
+      "title": "Tập 135",
+      "pages": 86
+    },
+    {
+      "slug": "tap-136",
+      "num": 136,
+      "title": "Tập 136",
+      "pages": 86
+    },
+    {
+      "slug": "tap-137",
+      "num": 137,
+      "title": "Tập 137",
+      "pages": 85
+    },
+    {
+      "slug": "tap-138",
+      "num": 138,
+      "title": "Tập 138",
+      "pages": 85
+    },
+    {
+      "slug": "tap-139",
+      "num": 139,
+      "title": "Tập 139",
+      "pages": 86
+    },
+    {
+      "slug": "tap-140",
+      "num": 140,
+      "title": "Tập 140",
+      "pages": 86
+    },
+    {
+      "slug": "tap-141",
+      "num": 141,
+      "title": "Tập 141",
+      "pages": 86
+    },
+    {
+      "slug": "tap-142",
+      "num": 142,
+      "title": "Tập 142",
+      "pages": 94
+    },
+    {
+      "slug": "tap-143",
+      "num": 143,
+      "title": "Tập 143",
+      "pages": 86
+    },
+    {
+      "slug": "tap-144",
+      "num": 144,
+      "title": "Tập 144",
+      "pages": 86
+    },
+    {
+      "slug": "tap-145",
+      "num": 145,
+      "title": "Tập 145",
+      "pages": 53
+    },
+    {
+      "slug": "tap-146",
+      "num": 146,
+      "title": "Tập 146",
+      "pages": 86
+    },
+    {
+      "slug": "tap-147",
+      "num": 147,
+      "title": "Tập 147",
+      "pages": 86
+    },
+    {
+      "slug": "tap-148",
+      "num": 148,
+      "title": "Tập 148",
+      "pages": 85
+    },
+    {
+      "slug": "tap-149",
+      "num": 149,
+      "title": "Tập 149",
+      "pages": 89
+    },
+    {
+      "slug": "tap-150",
+      "num": 150,
+      "title": "Tập 150",
+      "pages": 86
+    },
+    {
+      "slug": "tap-151",
+      "num": 151,
+      "title": "Tập 151",
+      "pages": 86
+    },
+    {
+      "slug": "tap-152",
+      "num": 152,
+      "title": "Tập 152",
+      "pages": 86
+    },
+    {
+      "slug": "tap-153",
+      "num": 153,
+      "title": "Tập 153",
+      "pages": 85
+    },
+    {
+      "slug": "tap-154",
+      "num": 154,
+      "title": "Tập 154",
+      "pages": 86
+    },
+    {
+      "slug": "tap-155",
+      "num": 155,
+      "title": "Tập 155",
+      "pages": 86
+    },
+    {
+      "slug": "tap-156",
+      "num": 156,
+      "title": "Tập 156",
+      "pages": 114
+    },
+    {
+      "slug": "tap-157",
+      "num": 157,
+      "title": "Tập 157",
+      "pages": 86
+    },
+    {
+      "slug": "tap-158",
+      "num": 158,
+      "title": "Tập 158",
+      "pages": 86
+    },
+    {
+      "slug": "tap-159",
+      "num": 159,
+      "title": "Tập 159",
+      "pages": 90
+    },
+    {
+      "slug": "tap-160",
+      "num": 160,
+      "title": "Tập 160",
+      "pages": 95
+    },
+    {
+      "slug": "tap-161",
+      "num": 161,
+      "title": "Tập 161",
+      "pages": 86
+    },
+    {
+      "slug": "tap-162",
+      "num": 162,
+      "title": "Tập 162",
+      "pages": 88
+    },
+    {
+      "slug": "tap-163",
+      "num": 163,
+      "title": "Tập 163",
+      "pages": 86
+    },
+    {
+      "slug": "tap-164",
+      "num": 164,
+      "title": "Tập 164",
+      "pages": 86
+    },
+    {
+      "slug": "tap-165",
+      "num": 165,
+      "title": "Tập 165",
+      "pages": 86
+    },
+    {
+      "slug": "tap-166",
+      "num": 166,
+      "title": "Tập 166",
+      "pages": 86
+    },
+    {
+      "slug": "tap-167",
+      "num": 167,
+      "title": "Tập 167",
+      "pages": 77
+    },
+    {
+      "slug": "tap-168",
+      "num": 168,
+      "title": "Tập 168",
+      "pages": 78
+    },
+    {
+      "slug": "tap-169",
+      "num": 169,
+      "title": "Tập 169",
+      "pages": 79
+    },
+    {
+      "slug": "tap-170",
+      "num": 170,
+      "title": "Tập 170",
+      "pages": 78
+    },
+    {
+      "slug": "tap-171",
+      "num": 171,
+      "title": "Tập 171",
+      "pages": 79
+    },
+    {
+      "slug": "tap-172",
+      "num": 172,
+      "title": "Tập 172",
+      "pages": 79
+    },
+    {
+      "slug": "tap-173",
+      "num": 173,
+      "title": "Tập 173",
+      "pages": 78
+    },
+    {
+      "slug": "tap-174",
+      "num": 174,
+      "title": "Tập 174",
+      "pages": 79
+    },
+    {
+      "slug": "tap-175",
+      "num": 175,
+      "title": "Tập 175",
+      "pages": 79
+    },
+    {
+      "slug": "tap-176",
+      "num": 176,
+      "title": "Tập 176",
+      "pages": 75
+    },
+    {
+      "slug": "tap-177",
+      "num": 177,
+      "title": "Tập 177",
+      "pages": 75
+    },
+    {
+      "slug": "tap-178",
+      "num": 178,
+      "title": "Tập 178",
+      "pages": 77
+    },
+    {
+      "slug": "tap-179",
+      "num": 179,
+      "title": "Tập 179",
+      "pages": 77
+    },
+    {
+      "slug": "tap-180",
+      "num": 180,
+      "title": "Tập 180",
+      "pages": 76
+    },
+    {
+      "slug": "tap-181",
+      "num": 181,
+      "title": "Tập 181",
+      "pages": 101
+    },
+    {
+      "slug": "tap-182",
+      "num": 182,
+      "title": "Tập 182",
+      "pages": 68
+    },
+    {
+      "slug": "tap-183",
+      "num": 183,
+      "title": "Tập 183",
+      "pages": 70
+    },
+    {
+      "slug": "tap-184",
+      "num": 184,
+      "title": "Tập 184",
+      "pages": 85
+    },
+    {
+      "slug": "tap-185-3",
+      "num": 185,
+      "title": "Tập 185 (Chap 3)",
+      "pages": 26
+    },
+    {
+      "slug": "tap-185-2",
+      "num": 185,
+      "title": "Tập 185 (Chap 2)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-185-1",
+      "num": 185,
+      "title": "Tập 185 (Chap 1)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-186-3",
+      "num": 186,
+      "title": "Tập 186 (Chap 3)",
+      "pages": 24
+    },
+    {
+      "slug": "tap-186-2",
+      "num": 186,
+      "title": "Tập 186 (Chap 2)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-186-1",
+      "num": 186,
+      "title": "Tập 186 (Chap 1)",
+      "pages": 22
+    },
+    {
+      "slug": "tap-188-3",
+      "num": 188,
+      "title": "Tập 188 (Chap 3)",
+      "pages": 26
+    },
+    {
+      "slug": "tap-188-2",
+      "num": 188,
+      "title": "Tập 188 (Chap 2)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-188-1",
+      "num": 188,
+      "title": "Tập 188 (Chap 1)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-189-3",
+      "num": 189,
+      "title": "Tập 189 (Chap 3)",
+      "pages": 27
+    },
+    {
+      "slug": "tap-189-2",
+      "num": 189,
+      "title": "Tập 189 (Chap 2)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-189-1",
+      "num": 189,
+      "title": "Tập 189 (Chap 1)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-190-3",
+      "num": 190,
+      "title": "Tập 190 (Chap 3)",
+      "pages": 25
+    },
+    {
+      "slug": "tap-190-2",
+      "num": 190,
+      "title": "Tập 190 (Chap 2)",
+      "pages": 21
+    },
+    {
+      "slug": "tap-190-1",
+      "num": 190,
+      "title": "Tập 190 (Chap 1)",
+      "pages": 24
+    },
+    {
+      "slug": "tap-191-3",
+      "num": 191,
+      "title": "Tập 191 (Chap 3)",
+      "pages": 24
+    },
+    {
+      "slug": "tap-191-2",
+      "num": 191,
+      "title": "Tập 191 (Chap 2)",
+      "pages": 22
+    },
+    {
+      "slug": "tap-191-1",
+      "num": 191,
+      "title": "Tập 191 (Chap 1)",
+      "pages": 20
+    },
+    {
+      "slug": "tap-192",
+      "num": 192,
+      "title": "Tập 192",
+      "pages": 162
+    },
+    {
+      "slug": "tap-193",
+      "num": 193,
+      "title": "Tập 193",
+      "pages": 165
+    },
+    {
+      "slug": "tap-194",
+      "num": 194,
+      "title": "Tập 194",
+      "pages": 159
+    },
+    {
+      "slug": "tap-195",
+      "num": 195,
+      "title": "Tập 195",
+      "pages": 161
+    },
+    {
+      "slug": "tap-196",
+      "num": 196,
+      "title": "Tập 196",
+      "pages": 156
+    },
+    {
+      "slug": "tap-197",
+      "num": 197,
+      "title": "Tập 197",
+      "pages": 175
+    },
+    {
+      "slug": "tap-198",
+      "num": 198,
+      "title": "Tập 198",
+      "pages": 157
+    },
+    {
+      "slug": "tap-199",
+      "num": 199,
+      "title": "Tập 199",
+      "pages": 164
+    }
+  ]
+}

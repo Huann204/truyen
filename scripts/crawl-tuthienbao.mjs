@@ -33,10 +33,18 @@ function extractImagesFromPost(html) {
   if (!postMsgMatch) return [];
   const postHtml = postMsgMatch[1];
   const imgs = [];
-  const regex = /<img[^>]+src="(https:\/\/blogger\.googleusercontent\.com\/img\/b\/[^"]+)"/gi;
+  const regex = /<img[^>]+(?:src|data-src)=["'](https?:\/\/[^"']+)["']/gi;
   let m;
   while ((m = regex.exec(postHtml)) !== null) {
-    const url = m[1];
+    const url = m[1].replaceAll('&amp;', '&');
+    let host;
+    try {
+      host = new URL(url).hostname;
+    } catch {
+      continue;
+    }
+    // Các tập mới dùng googleusercontent, tập cũ dùng 1.bp.blogspot.com ... 4.bp.blogspot.com.
+    if (host !== 'blogger.googleusercontent.com' && !host.endsWith('.bp.blogspot.com')) continue;
     // Filter out ads
     if (!url.includes('vay') && !url.includes('son.jpg') && !url.includes('hat.jpg') && !url.includes('dam') && !url.includes('giay') && !url.includes('quat') && !url.includes('khau') && !url.includes('gym') && !url.includes('giavi')) {
       imgs.push(url);
@@ -56,25 +64,54 @@ async function main() {
   // 1. Fetch initial page to find forum and intro
   const initialHtml = await fetchWithRetry(targetUrl);
 
-  // Forum link (e.g. forumdisplay.php?f=1264)
-  const forumMatch = initialHtml.match(/href="(forumdisplay\.php\?f=\d+)"/i);
-  const forumUrl = forumMatch ? `https://tuthienbao.com/forum/${forumMatch[1]}` : 'https://tuthienbao.com/forum/forumdisplay.php?f=1264';
+  // Nếu người dùng truyền thẳng URL chuyên mục thì phải giữ nguyên chuyên mục đó.
+  // Trước đây đoạn này luôn lấy link forumdisplay đầu tiên trong HTML, thường là
+  // chuyên mục cha/khác, nên có thể cào nhầm toàn bộ thread của Tý Quậy.
+  const parsedTargetUrl = new URL(targetUrl);
+  const isForumUrl = parsedTargetUrl.pathname.endsWith('/forumdisplay.php') && parsedTargetUrl.searchParams.has('f');
+  const headerHtml = initialHtml.split(/id=["']posts["']/i)[0];
+  const headerForumIds = [...headerHtml.matchAll(/href=["'][^"']*forumdisplay\.php\?([^"']+)["']/gi)]
+    .map((match) => new URLSearchParams(match[1].replaceAll('&amp;', '&')).get('f'))
+    .filter(Boolean);
+  // Breadcrumb đi từ chuyên mục cha đến chuyên mục hiện tại, nên forum id cuối là chính xác.
+  const detectedForumId = isForumUrl ? parsedTargetUrl.searchParams.get('f') : headerForumIds.at(-1);
+  const forumUrl = detectedForumId
+    ? `https://tuthienbao.com/forum/forumdisplay.php?f=${detectedForumId}`
+    : null;
+
+  if (!forumUrl) {
+    throw new Error('Không xác định được chuyên mục chứa truyện từ URL đã nhập.');
+  }
   console.log(`Tìm thấy chuyên mục: ${forumUrl}`);
 
-  // Fetch forum to list all threads
-  const forumHtml = await fetchWithRetry(forumUrl);
-  const threadMatches = [...forumHtml.matchAll(/id="thread_title_(\d+)">([^<]+)<\/a>/g)];
+  // Fetch toàn bộ các trang của chuyên mục (Thần Đồng Đất Việt hiện có 21 trang).
+  const firstForumHtml = isForumUrl ? initialHtml : await fetchWithRetry(forumUrl);
+  const pageNumbers = [...firstForumHtml.matchAll(/&(?:amp;)?page=(\d+)/gi)].map((match) => Number(match[1]));
+  const totalForumPages = Math.max(1, ...pageNumbers);
+  const forumPages = [firstForumHtml];
+  console.log(`Chuyên mục có ${totalForumPages} trang.`);
+
+  for (let page = 2; page <= totalForumPages; page++) {
+    console.log(`Đang đọc danh sách tập trang ${page}/${totalForumPages}...`);
+    forumPages.push(await fetchWithRetry(`${forumUrl}&order=desc&page=${page}`));
+    await sleep(300);
+  }
+
+  const forumHtml = forumPages.join('\n');
+  const threadMatches = [...forumHtml.matchAll(/id=["']thread_title_(\d+)["'][^>]*>([^<]+)<\/a>/gi)];
 
   // Parse threads
   let threadList = threadMatches.map(m => {
     const tid = m[1];
     const rawTitle = m[2].trim();
-    // Match "ep X" or "Tập X"
-    const epMatch = rawTitle.match(/ep\s*(\d+)(?:\s*chap\s*(\d+))?/i);
-    let num = epMatch ? parseInt(epMatch[1], 10) : 0;
-    let sub = epMatch && epMatch[2] ? ` (Chap ${epMatch[2]})` : '';
+    // Hỗ trợ các dạng "ep X", "Tập X", "Tap X" và chương con.
+    const epMatch = rawTitle.match(/(?:ep(?:isode)?|tập|tap)\s*(\d+)(?:\s*(?:chap|chapter|chương)\s*(\d+))?/iu);
+    if (!epMatch) return null;
+
+    let num = parseInt(epMatch[1], 10);
+    let sub = epMatch[2] ? ` (Chap ${epMatch[2]})` : '';
     let title = `Tập ${num}${sub}`;
-    let chapterSlug = `tap-${num}${epMatch && epMatch[2] ? `-${epMatch[2]}` : ''}`;
+    let chapterSlug = `tap-${num}${epMatch[2] ? `-${epMatch[2]}` : ''}`;
     return {
       tid,
       num,
@@ -82,7 +119,7 @@ async function main() {
       chapterSlug,
       url: `https://tuthienbao.com/forum/showthread.php?t=${tid}`
     };
-  });
+  }).filter(Boolean);
 
   // Sort ascending by chapter num
   threadList.sort((a, b) => a.num - b.num);
