@@ -2,8 +2,10 @@
 import Link from "@/components/PrefetchLink";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import type { CSSProperties } from "react";
 import PageImage from "./PageImage";
 import { saveHistory } from "@/lib/storage";
+import styles from "./Reader.module.css";
 
 type Props = {
   slug: string;
@@ -131,8 +133,8 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
 
       {isText ? (
         <article
-          className={`mx-auto max-w-3xl rounded-xl px-4 py-6 sm:px-10 sm:py-8 ${BGS[s.bg]} ${ready ? "opacity-100" : "opacity-0"}`}
-          style={{ fontSize: s.size, lineHeight: s.line, fontFamily: s.font === "serif" ? "var(--font-reader-serif), Georgia, serif" : "inherit" }}
+          className={`${styles.readerText} mx-auto max-w-3xl rounded-xl px-4 py-6 sm:px-10 sm:py-8 ${BGS[s.bg]} ${ready ? "opacity-100" : "opacity-0"}`}
+          style={{ "--reader-font-size": `${s.size}px`, lineHeight: s.line, fontFamily: s.font === "serif" ? "var(--font-reader-serif), Georgia, serif" : "inherit" } as CSSProperties}
         >
           {paragraphs.length ? paragraphs.map((p, i) => <p key={i} className="mb-4">{p}</p>) : <p className="text-center opacity-60">Chương này chưa có nội dung.</p>}
         </article>

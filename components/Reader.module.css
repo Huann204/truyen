@@ -1,0 +1,9 @@
+.readerText {
+  font-size: var(--reader-font-size);
+}
+
+@media (max-width: 639px) {
+  .readerText {
+    font-size: max(14px, calc(var(--reader-font-size) - 2px));
+  }
+}
