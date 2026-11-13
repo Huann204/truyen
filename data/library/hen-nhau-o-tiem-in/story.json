@@ -1,0 +1,33 @@
+{
+  "slug": "hen-nhau-o-tiem-in",
+  "title": "Hẹn Nhau Ở Tiệm In",
+  "author": "Codex",
+  "description": "Một chuyện tình thanh xuân được kể bằng giọng của Duy — sinh viên công nghệ chỉ giỏi sửa máy và nói đùa. Từ lần cầm nhầm tập giáo án của Mai ở tiệm photocopy, hai người kéo nhau qua những buổi trực câu lạc bộ, chuyến tình nguyện, hiểu lầm và lựa chọn sau tốt nghiệp.",
+  "status": "Hoàn thành",
+  "genres": ["Thanh xuân", "Tình cảm", "Hài hước", "Đời thường"],
+  "source": "Sáng tác gốc",
+  "type": "novel",
+  "updatedAt": "2026-11-14",
+  "chapters": [
+    { "slug": "chap-1", "num": 1, "title": "Chương 1: Cầm nhầm tương lai", "words": 627 },
+    { "slug": "chap-2", "num": 2, "title": "Chương 2: Hợp đồng ba ly trà tắc", "words": 545 },
+    { "slug": "chap-3", "num": 3, "title": "Chương 3: Người yêu theo ca", "words": 476 },
+    { "slug": "chap-4", "num": 4, "title": "Chương 4: Mưa ở mái trường vùng cao", "words": 524 },
+    { "slug": "chap-5", "num": 5, "title": "Chương 5: Tin nhắn gửi nhầm", "words": 521 },
+    { "slug": "chap-6", "num": 6, "title": "Chương 6: Một người đi, một người đợi", "words": 544 },
+    { "slug": "chap-7", "num": 7, "title": "Chương 7: Lời thật trong phòng phát thanh", "words": 480 },
+    { "slug": "chap-8", "num": 8, "title": "Chương 8: Buổi hẹn đầu tiên, lần thứ rất nhiều", "words": 584 },
+    { "slug": "chap-9", "num": 9, "title": "Chương 9: Cô giáo không được phép khóc", "words": 499 },
+    { "slug": "chap-10", "num": 10, "title": "Chương 10: Bữa cơm có bốn cái bát", "words": 456 },
+    { "slug": "chap-11", "num": 11, "title": "Chương 11: Người cũ chưa từng yêu", "words": 514 },
+    { "slug": "chap-12", "num": 12, "title": "Chương 12: Thành phố mất điện", "words": 457 },
+    { "slug": "chap-13", "num": 13, "title": "Chương 13: Tết này có khách", "words": 489 },
+    { "slug": "chap-14", "num": 14, "title": "Chương 14: Bản vẽ dưới đáy ngăn bàn", "words": 458 },
+    { "slug": "chap-15", "num": 15, "title": "Chương 15: Hai chữ không sao", "words": 502 },
+    { "slug": "chap-16", "num": 16, "title": "Chương 16: Một lời mời từ phương Nam", "words": 477 },
+    { "slug": "chap-17", "num": 17, "title": "Chương 17: Khoảng nghỉ không phải chia tay", "words": 458 },
+    { "slug": "chap-18", "num": 18, "title": "Chương 18: Ngày Mai đứng lớp", "words": 451 },
+    { "slug": "chap-19", "num": 19, "title": "Chương 19: Tốt nghiệp", "words": 470 },
+    { "slug": "chap-20", "num": 20, "title": "Chương 20: Cuộc hẹn không cần photocopy", "words": 600 }
+  ]
+}

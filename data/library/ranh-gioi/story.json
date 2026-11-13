@@ -1,0 +1,407 @@
+{
+ "slug": "ranh-gioi",
+ "title": "Ranh Giới",
+ "cover": "/covers/ranh-gioi.webp",
+ "author": "Rain8x",
+ "description": "",
+ "status": "Full",
+ "genres": [
+  "Khác",
+  "Truyện Teen"
+ ],
+ "source": "https://chambersbar.ie/truyen/ranh-gioi",
+ "type": "novel",
+ "chapters": [
+  {
+   "slug": "chuong-1",
+   "num": 1,
+   "title": "Chương 1: Dậy thì",
+   "words": 2603
+  },
+  {
+   "slug": "chuong-2",
+   "num": 2,
+   "title": "Chương 2: Mối tình đầu",
+   "words": 1865
+  },
+  {
+   "slug": "chuong-3",
+   "num": 3,
+   "title": "Chương 3: Là yêu ??",
+   "words": 2374
+  },
+  {
+   "slug": "chuong-4",
+   "num": 4,
+   "title": "Chương 4: Ngỏ lời",
+   "words": 3665
+  },
+  {
+   "slug": "chuong-5",
+   "num": 5,
+   "title": "Chương 5: Mộng",
+   "words": 3177
+  },
+  {
+   "slug": "chuong-6",
+   "num": 6,
+   "title": "Chương 6: Đêm trăng tội lỗi (16+)",
+   "words": 4330
+  },
+  {
+   "slug": "chuong-7",
+   "num": 7,
+   "title": "Chương 7: Chạy trốn",
+   "words": 1432
+  },
+  {
+   "slug": "chuong-8",
+   "num": 8,
+   "title": "Chương 8: Mưa ký ức",
+   "words": 4180
+  },
+  {
+   "slug": "chuong-9",
+   "num": 9,
+   "title": "Chương 9: Phía sau cơn bão",
+   "words": 2032
+  },
+  {
+   "slug": "chuong-10",
+   "num": 10,
+   "title": "Chương 10: Ly biệt",
+   "words": 2803
+  },
+  {
+   "slug": "chuong-11",
+   "num": 11,
+   "title": "Chương 11: Vào đời",
+   "words": 1646
+  },
+  {
+   "slug": "chuong-12",
+   "num": 12,
+   "title": "Chương 12: Tuổi đời mênh mông",
+   "words": 7084
+  },
+  {
+   "slug": "chuong-13",
+   "num": 13,
+   "title": "Chương 13: Hoài niệm",
+   "words": 3422
+  },
+  {
+   "slug": "chuong-14",
+   "num": 14,
+   "title": "Chương 14: Người quen cũ",
+   "words": 3865
+  },
+  {
+   "slug": "chuong-15",
+   "num": 15,
+   "title": "Chương 15: Lạc điệu",
+   "words": 7352
+  },
+  {
+   "slug": "chuong-16",
+   "num": 16,
+   "title": "Chương 16: Khúc nhạc buồn",
+   "words": 5873
+  },
+  {
+   "slug": "chuong-17",
+   "num": 17,
+   "title": "Chương 17: Đánh mất",
+   "words": 6462
+  },
+  {
+   "slug": "chuong-18",
+   "num": 18,
+   "title": "Chương 18: Tìm lại",
+   "words": 4904
+  },
+  {
+   "slug": "chuong-19",
+   "num": 19,
+   "title": "Chương 19: Ngỡ ngàng",
+   "words": 7408
+  },
+  {
+   "slug": "chuong-20",
+   "num": 20,
+   "title": "Chương 20: Gặp lại",
+   "words": 6426
+  },
+  {
+   "slug": "chuong-21",
+   "num": 21,
+   "title": "Chương 21: Mưa",
+   "words": 5424
+  },
+  {
+   "slug": "chuong-22",
+   "num": 22,
+   "title": "Chương 22: Những mảnh ký ức",
+   "words": 1678
+  },
+  {
+   "slug": "chuong-23",
+   "num": 23,
+   "title": "Chương 23: Đêm đông",
+   "words": 3121
+  },
+  {
+   "slug": "chuong-24",
+   "num": 24,
+   "title": "Chương 24: Nơi tình yêu bắt đầu",
+   "words": 2408
+  },
+  {
+   "slug": "chuong-25",
+   "num": 25,
+   "title": "Chương 25: Bởi đó là yêu",
+   "words": 3420
+  },
+  {
+   "slug": "chuong-26",
+   "num": 26,
+   "title": "Chương 26: Điều giản dị",
+   "words": 6057
+  },
+  {
+   "slug": "chuong-27",
+   "num": 27,
+   "title": "Chương 27: Đừng buông tay",
+   "words": 3486
+  },
+  {
+   "slug": "chuong-28",
+   "num": 28,
+   "title": "Chương 28: Tuổi buồn như lá",
+   "words": 3891
+  },
+  {
+   "slug": "chuong-29",
+   "num": 29,
+   "title": "Chương 29: Hy vọng cho những yêu thương",
+   "words": 4981
+  },
+  {
+   "slug": "chuong-30",
+   "num": 30,
+   "title": "Chương 30: Mùa của nỗi nhớ",
+   "words": 3766
+  },
+  {
+   "slug": "chuong-31",
+   "num": 31,
+   "title": "Chương 31: Sự khởi đầu",
+   "words": 4731
+  },
+  {
+   "slug": "chuong-32",
+   "num": 32,
+   "title": "Chương 32: Chênh vênh",
+   "words": 3018
+  },
+  {
+   "slug": "chuong-33",
+   "num": 33,
+   "title": "Chương 33: Cảm xúc và lý trí",
+   "words": 7447
+  },
+  {
+   "slug": "chuong-34",
+   "num": 34,
+   "title": "Chương 34: Mơ trong giấc mộng",
+   "words": 5829
+  },
+  {
+   "slug": "chuong-35",
+   "num": 35,
+   "title": "Chương 35: Tình bạn tri kỷ",
+   "words": 5734
+  },
+  {
+   "slug": "chuong-36",
+   "num": 36,
+   "title": "Chương 36: Trái tim người con gái",
+   "words": 4863
+  },
+  {
+   "slug": "chuong-37",
+   "num": 37,
+   "title": "Chương 37: Dị biệt",
+   "words": 7207
+  },
+  {
+   "slug": "chuong-38",
+   "num": 38,
+   "title": "Chương 38: Đêm náo loạn ở vũ trường",
+   "words": 6505
+  },
+  {
+   "slug": "chuong-39",
+   "num": 39,
+   "title": "Chương 39: Giữa đôi dòng nước mắt",
+   "words": 6015
+  },
+  {
+   "slug": "chuong-40",
+   "num": 40,
+   "title": "Chương 40: Nhìn về phía hoàng hôn",
+   "words": 5192
+  },
+  {
+   "slug": "chuong-41",
+   "num": 41,
+   "title": "Chương 41: Quay lại chốn xưa",
+   "words": 5648
+  },
+  {
+   "slug": "chuong-42",
+   "num": 42,
+   "title": "Chương 42: Nguyên tắc cuối cùng",
+   "words": 5779
+  },
+  {
+   "slug": "chuong-43",
+   "num": 43,
+   "title": "Chương 43: Lý lẽ của tình yêu",
+   "words": 6394
+  },
+  {
+   "slug": "chuong-44",
+   "num": 44,
+   "title": "Chương 44: Những khoảnh khắc bên nhau",
+   "words": 4862
+  },
+  {
+   "slug": "chuong-45",
+   "num": 45,
+   "title": "Chương 45: Mãi mãi tuổi hai mươi",
+   "words": 6191
+  },
+  {
+   "slug": "chuong-46",
+   "num": 46,
+   "title": "Chương 46: Trong màn sương mù",
+   "words": 4799
+  },
+  {
+   "slug": "chuong-47",
+   "num": 47,
+   "title": "Chương 47: Hung thủ lộ diện",
+   "words": 5862
+  },
+  {
+   "slug": "chuong-48",
+   "num": 48,
+   "title": "Chương 48: Trở lại ký ức buồn",
+   "words": 3809
+  },
+  {
+   "slug": "chuong-49",
+   "num": 49,
+   "title": "Chương 49: Đối mặt với hiểm nguy",
+   "words": 4711
+  },
+  {
+   "slug": "chuong-50",
+   "num": 50,
+   "title": "Chương 50: Chạy trốn thực tại",
+   "words": 4071
+  },
+  {
+   "slug": "chuong-51",
+   "num": 51,
+   "title": "Chương 51: Một lần và mãi mãi",
+   "words": 3653
+  },
+  {
+   "slug": "chuong-52",
+   "num": 52,
+   "title": "Chương 52: Bản cam kết cuộc đời",
+   "words": 4574
+  },
+  {
+   "slug": "chuong-53",
+   "num": 53,
+   "title": "Chương 53: Con cầu xin",
+   "words": 3745
+  },
+  {
+   "slug": "chuong-54",
+   "num": 54,
+   "title": "Chương 54: Con cầu xin",
+   "words": 3713
+  },
+  {
+   "slug": "chuong-55",
+   "num": 55,
+   "title": "Chương 55: Đừng khóc",
+   "words": 4270
+  },
+  {
+   "slug": "chuong-56",
+   "num": 56,
+   "title": "Chương 56: Không còn lời hứa",
+   "words": 6797
+  },
+  {
+   "slug": "chuong-57",
+   "num": 57,
+   "title": "Chương 57: Hiệu ứng của số phận",
+   "words": 3603
+  },
+  {
+   "slug": "chuong-58",
+   "num": 58,
+   "title": "Chương 58: Mùa thu giữa Sài Gòn",
+   "words": 3543
+  },
+  {
+   "slug": "chuong-59",
+   "num": 59,
+   "title": "Chương 59: Giọt sương và chiếc lá",
+   "words": 3350
+  },
+  {
+   "slug": "chuong-60",
+   "num": 60,
+   "title": "Chương 60: Khoảnh khắc sau tất cả",
+   "words": 4614
+  },
+  {
+   "slug": "chuong-61",
+   "num": 61,
+   "title": "Chương 61: Điều duy nhất",
+   "words": 4517
+  },
+  {
+   "slug": "chuong-62",
+   "num": 62,
+   "title": "Chương 62: Nơi hoàng hôn ở lại",
+   "words": 5486
+  },
+  {
+   "slug": "chuong-63",
+   "num": 63,
+   "title": "Chương 63: Gửi lại nỗi nhớ...",
+   "words": 5628
+  },
+  {
+   "slug": "chuong-64",
+   "num": 64,
+   "title": "Chương 64: Cuộc gọi lúc nửa đêm",
+   "words": 2927
+  },
+  {
+   "slug": "chuong-65",
+   "num": 65,
+   "title": "Chương 65: Tia nắng cuối cùng",
+   "words": 5118
+  }
+ ],
+ "updatedAt": "2026-11-13T18:26:44.881Z"
+}
