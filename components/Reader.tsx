@@ -40,11 +40,16 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
   const isText = chapter.mediaType === "text";
 
   useEffect(() => {
-    if (cachedSettings) return;
-    let loaded = DEFAULTS;
+    let loaded = cachedSettings ?? DEFAULTS;
     try {
-      const raw = localStorage.getItem("reader");
-      if (raw) loaded = { ...DEFAULTS, ...JSON.parse(raw) };
+      if (!cachedSettings) {
+        const raw = localStorage.getItem("reader");
+        if (raw) loaded = { ...DEFAULTS, ...JSON.parse(raw) };
+      }
+      // Khi người đọc chưa chọn nền riêng, cho khung chữ đi theo theme của website.
+      if (localStorage.getItem("reader-bg-explicit") !== "1") {
+        loaded = { ...loaded, bg: document.documentElement.classList.contains("dark") ? "dark" : "light" };
+      }
     } catch {}
     cachedSettings = loaded;
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -52,11 +57,32 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
     setReady(true);
   }, []);
 
+  useEffect(() => {
+    const syncWithSiteTheme = () => {
+      try {
+        if (localStorage.getItem("reader-bg-explicit") === "1") return;
+      } catch {}
+      const bg = document.documentElement.classList.contains("dark") ? "dark" : "light";
+      setS((current) => {
+        if (current.bg === bg) return current;
+        const next = { ...current, bg };
+        cachedSettings = next;
+        return next;
+      });
+    };
+    const observer = new MutationObserver(syncWithSiteTheme);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
+
   function update(p: Partial<Settings>) {
     const n = { ...s, ...p };
     setS(n);
     cachedSettings = n;
-    try { localStorage.setItem("reader", JSON.stringify(n)); } catch {}
+    try {
+      localStorage.setItem("reader", JSON.stringify(n));
+      if (p.bg) localStorage.setItem("reader-bg-explicit", "1");
+    } catch {}
   }
 
   useEffect(() => {
