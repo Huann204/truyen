@@ -1,0 +1,294 @@
+{
+  "slug": "ve-em-bang-mau-noi-nho",
+  "title": "Vẽ Em Bằng Màu Nỗi Nhớ",
+  "cover": "/covers/ve-em-bang-mau-noi-nho.webp",
+  "author": "TthanPham",
+  "status": "Hoàn thành",
+  "genres": [
+    "Tình Cảm",
+    "Gia Đình",
+    "Voz"
+  ],
+  "description": "Bộ truyện Vẽ em bằng màu nỗi nhớ của tác giả TthanPham là Truyện có thật về chuyện tình của chàng trai đất Sài Gòn đầy nắng và gió. Xuyên suốt truyện là những mảnh ký ức rời rạc từ những ngày đâu về Sài Gòn học, những chuyện tình cảm học trò tuổi mới lớn, tinh yêu thật sự ở tuổi trưởng thành và những biến cố. Ngoài tình yêu đôi lứa, ở đâu đó trong truyện, bạn còn có thể bắt gặp được ý nghĩa của tình cảm gia đình, tình thầy cô và tình bạn.",
+  "source": "https://www.doctruyenvoz.com/2015/04/ve-em-bang-mau-noi-nho.html",
+  "type": "novel",
+  "chapters": [
+    {
+      "slug": "mo-dau",
+      "num": 0,
+      "title": "Mở đầu",
+      "words": 1009
+    },
+    {
+      "slug": "chap-1",
+      "num": 1,
+      "title": "Chap 1",
+      "words": 3620
+    },
+    {
+      "slug": "chap-2",
+      "num": 2,
+      "title": "Chap 2",
+      "words": 1732
+    },
+    {
+      "slug": "chap-3",
+      "num": 3,
+      "title": "Chap 3",
+      "words": 1445
+    },
+    {
+      "slug": "chap-4",
+      "num": 4,
+      "title": "Chap 4",
+      "words": 2033
+    },
+    {
+      "slug": "chap-5",
+      "num": 5,
+      "title": "Chap 5",
+      "words": 1618
+    },
+    {
+      "slug": "chap-6",
+      "num": 6,
+      "title": "Chap 6",
+      "words": 2584
+    },
+    {
+      "slug": "chap-7",
+      "num": 7,
+      "title": "Chap 7",
+      "words": 1904
+    },
+    {
+      "slug": "chap-8",
+      "num": 8,
+      "title": "Chap 8",
+      "words": 1670
+    },
+    {
+      "slug": "chap-9",
+      "num": 9,
+      "title": "Chap 9",
+      "words": 2157
+    },
+    {
+      "slug": "chap-10",
+      "num": 10,
+      "title": "Chap 10",
+      "words": 1520
+    },
+    {
+      "slug": "chap-11",
+      "num": 11,
+      "title": "Chap 11",
+      "words": 1813
+    },
+    {
+      "slug": "chap-12",
+      "num": 12,
+      "title": "Chap 12",
+      "words": 2498
+    },
+    {
+      "slug": "chap-13",
+      "num": 13,
+      "title": "Chap 13",
+      "words": 2246
+    },
+    {
+      "slug": "chap-14",
+      "num": 14,
+      "title": "Chap 14",
+      "words": 2299
+    },
+    {
+      "slug": "chap-15",
+      "num": 15,
+      "title": "Chap 15",
+      "words": 3556
+    },
+    {
+      "slug": "chap-16",
+      "num": 16,
+      "title": "Chap 16",
+      "words": 1872
+    },
+    {
+      "slug": "chap-17",
+      "num": 17,
+      "title": "Chap 17",
+      "words": 2066
+    },
+    {
+      "slug": "chap-18",
+      "num": 18,
+      "title": "Chap 18",
+      "words": 2477
+    },
+    {
+      "slug": "chap-19",
+      "num": 19,
+      "title": "Chap 19",
+      "words": 2401
+    },
+    {
+      "slug": "chap-20",
+      "num": 20,
+      "title": "Chap 20",
+      "words": 3101
+    },
+    {
+      "slug": "chap-21",
+      "num": 21,
+      "title": "Chap 21",
+      "words": 1860
+    },
+    {
+      "slug": "chap-22",
+      "num": 22,
+      "title": "Chap 22",
+      "words": 2159
+    },
+    {
+      "slug": "chap-23",
+      "num": 23,
+      "title": "Chap 23",
+      "words": 2542
+    },
+    {
+      "slug": "chap-24",
+      "num": 24,
+      "title": "Chap 24",
+      "words": 2272
+    },
+    {
+      "slug": "chap-25",
+      "num": 25,
+      "title": "Chap 25",
+      "words": 2238
+    },
+    {
+      "slug": "chap-26",
+      "num": 26,
+      "title": "Chap 26",
+      "words": 2247
+    },
+    {
+      "slug": "chap-27",
+      "num": 27,
+      "title": "Chap 27",
+      "words": 2153
+    },
+    {
+      "slug": "chap-28",
+      "num": 28,
+      "title": "Chap 28",
+      "words": 2395
+    },
+    {
+      "slug": "chap-29",
+      "num": 29,
+      "title": "Chap 29",
+      "words": 2031
+    },
+    {
+      "slug": "chap-30",
+      "num": 30,
+      "title": "Chap 30",
+      "words": 2166
+    },
+    {
+      "slug": "chap-31",
+      "num": 31,
+      "title": "Chap 31",
+      "words": 1451
+    },
+    {
+      "slug": "chap-32",
+      "num": 32,
+      "title": "Chap 32",
+      "words": 2430
+    },
+    {
+      "slug": "chap-33",
+      "num": 33,
+      "title": "Chap 33",
+      "words": 2420
+    },
+    {
+      "slug": "chap-34",
+      "num": 34,
+      "title": "Chap 34",
+      "words": 2856
+    },
+    {
+      "slug": "chap-35",
+      "num": 35,
+      "title": "Chap 35",
+      "words": 2208
+    },
+    {
+      "slug": "chap-36",
+      "num": 36,
+      "title": "Chap 36",
+      "words": 2823
+    },
+    {
+      "slug": "chap-37",
+      "num": 37,
+      "title": "Chap 37",
+      "words": 2426
+    },
+    {
+      "slug": "chap-38",
+      "num": 38,
+      "title": "Chap 38",
+      "words": 2883
+    },
+    {
+      "slug": "chap-39",
+      "num": 39,
+      "title": "Chap 39",
+      "words": 2956
+    },
+    {
+      "slug": "chap-40",
+      "num": 40,
+      "title": "Chap 40",
+      "words": 3534
+    },
+    {
+      "slug": "chap-41",
+      "num": 41,
+      "title": "Chap 41",
+      "words": 3348
+    },
+    {
+      "slug": "chap-42",
+      "num": 42,
+      "title": "Chap 42",
+      "words": 6283
+    },
+    {
+      "slug": "ngoai-truyen-1",
+      "num": 1001,
+      "title": "Ngoại truyện 1",
+      "words": 2879
+    },
+    {
+      "slug": "ngoai-truyen-2",
+      "num": 1002,
+      "title": "Ngoại truyện 2",
+      "words": 953
+    },
+    {
+      "slug": "ngoai-truyen-3",
+      "num": 1003,
+      "title": "Ngoại truyện 3",
+      "words": 3881
+    }
+  ],
+  "updatedAt": "2026-11-15T04:56:06.466Z"
+}

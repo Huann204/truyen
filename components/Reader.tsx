@@ -62,7 +62,7 @@ export default function Reader({ slug, title, cover, chapter, paragraphs, pages,
       try {
         if (localStorage.getItem("reader-bg-explicit") === "1") return;
       } catch {}
-      const bg = document.documentElement.classList.contains("dark") ? "dark" : "light";
+      const bg: Settings["bg"] = document.documentElement.classList.contains("dark") ? "dark" : "light";
       setS((current) => {
         if (current.bg === bg) return current;
         const next = { ...current, bg };
